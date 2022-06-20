@@ -1,0 +1,28 @@
+
+.menuList {
+  margin-bottom: 30px;
+}
+
+.menuList > ul li {
+  padding: 2%;
+  display: flex;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.menuList li .menu_info {
+  flex: 1;
+}
+
+.menuList .img_wrap {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.menuList .img_wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="user">
+
+	<select id="test" resultType="String">
+		select 1 from dual
+	</select>
+
+
+	<select id="duplicateCheck" resultType="map">
+		select 
+			exists (select * from user where username = #{username}) username
+      ,exists (select * from user where nickname = #{nickname}) nickname 
+	</select>
+	
+  	
+	<insert id="join">
+		INSERT INTO USER (
+			USERNAME,
+			PASSWORD,
+			EMAIL,
+			NICKNAME,
+			PHONE
+		) VALUES (
+			#{username },
+			#{password },
+			#{email },
+			#{nickname },
+			#{phone }
+		)
+	</insert>
+	
+	
+	<select id="login" resultType="User">
+		SELECT 
+	    U.user_ID
+	    ,U.USERNAME
+	    ,U.PASSWORD
+	    ,U.EMAIL
+	    ,U.NICKNAME
+	    ,U.PHONE
+	    ,U.ROLE
+	FROM 
+	    USER U 
+	WHERE U.USERNAME = #{username }    
+	</select>
+	
+	
+	
+	
+	
+</mapper>

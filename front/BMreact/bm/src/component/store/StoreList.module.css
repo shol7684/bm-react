@@ -1,0 +1,93 @@
+.store_list {
+  display: flex;
+  flex-wrap: wrap;
+  /* min-height: calc(100vh - 161px); */
+}
+
+.store_list li {
+  border: 1px solid #ddd;
+  width: 48%;
+  margin: 1% calc(1% - 1px);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.store_list li > a {
+  padding: 3% 2%;
+  display: flex;
+}
+ 
+.store_list .img_wrap {
+  width: 130px;
+	height: 130px;
+  margin-right: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.store_list .img_wrap img {
+  height: 100%;
+  width: 100%;
+}
+
+.store_list .info_wrap {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.store_list .info_wrap span {
+  margin-right: 5px;
+}
+
+.store_list li:hover img {
+  transform: scale(1.03);
+	transition: 0.1s;
+}
+
+.store_list .isOpen {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  color: #fff;
+}
+
+
+@media (max-width:1024px) {
+
+  .store_list {
+    background: #eee;
+  }
+	.store_list li {
+	    width: 100%;
+	    border:none;
+	    border-radius: 0;
+	    border-bottom: 2px solid #ddd;
+	    margin: 0 auto 1%;
+	    background: #fff;
+	}
+
+}
+
+@media (max-width:767px) {
+	.store_list .img_wrap {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+@media (max-width:480px) {
+	.box .store li {
+		padding: 20px 10px;
+	}
+	
+	.store_list .img_wrap {
+		width: 80px;
+		height: 80px;
+	}
+}

@@ -1,0 +1,13 @@
+package com.baemin;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BaminReactApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BaminReactApplication.class, args);
+	}
+
+}

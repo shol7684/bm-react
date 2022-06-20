@@ -1,0 +1,118 @@
+.menu_wrap {
+  height: calc(100% - 140px);
+}
+
+.menu_wrap > div {
+  height: 100%
+}
+
+.menu_img {
+  width: 100%;
+}
+
+.menu_info {
+  padding: 2%;
+}
+
+.menu_info > section {
+  border-radius: 5px;
+  margin: 0px auto;
+  transform: translateY(-50%);
+  background: #fff;
+  box-shadow: 0px 7px 10px 0px rgb(0 0 0/ 10%);
+  padding: 3% 0;
+}
+
+.menu_info > div {
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.menu_info .menu_name {
+  text-align: center;
+}
+
+.menu_info .menu_introduction {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.menu_info .menu_price { 
+  font-weight: bold;
+	font-size: 2rem;
+  margin-left: 5px;
+}
+
+.menu_info ul.menu_option {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.menu_info .menu_option li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu_info input[type="checkbox"] {
+	display: none;
+}
+
+.menu_info i {
+  margin-right: 5px;
+}
+
+.menu_info input[type="checkbox"]:checked ~ i{
+	color: var(--bm-color);
+}
+
+
+.menu_info .quantity_wrap {
+  
+}
+
+.menu_info .quantity_btn_wrap {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 150px;
+  display: flex;
+  margin: 10px 0;
+  border-radius: 40px;
+  align-items: center;
+}
+
+.menu_info .quantity_btn_wrap button {
+  height: 100%;
+  flex: 1;
+  border: none;
+  background: none;
+  font-size: 2rem;
+
+}
+
+.menu_info .quantity_btn_wrap span {
+  flex: 1;
+  text-align: center;
+}
+
+
+
+.total_wrap {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ddd;
+}
+
+.total_wrap .total {
+  font-weight: bold;
+  font-size: 1.7rem;
+}

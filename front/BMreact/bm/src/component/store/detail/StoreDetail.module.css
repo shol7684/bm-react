@@ -1,0 +1,13 @@
+.store_detail {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 90vh;
+}
+
+
+.store_detail .wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+

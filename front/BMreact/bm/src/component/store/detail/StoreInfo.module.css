@@ -1,0 +1,47 @@
+.store_info {
+  
+}
+.store_info li {
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 2%;
+  min-height: 150px;
+}
+
+.store_info .map_wrap {
+  position: relative;
+	width: 100%;
+	height: 400px;
+	margin-bottom: 10px;
+  border: 1px solid #000;
+}
+
+.store_info .position {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.store_info .position  button {
+	border-radius: 50px;
+	border: 1px solid #999999;
+	background: #fff;
+	padding: 5px 10px;
+	font-size: 1.5rem;
+  margin-left: 5px;
+}
+
+.store_info .business_info > div {
+  display: flex;
+  padding-top: 10px;
+}
+
+.store_info .info_title {
+  width: 200px;
+}
+
+.store_info .statistics > div {
+  display: flex;
+  padding-top: 10px;
+}

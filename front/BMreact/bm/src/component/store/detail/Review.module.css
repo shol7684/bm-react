@@ -1,0 +1,69 @@
+.score_wrap {
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 2%;
+  /* min-height: 150px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.score_avg {
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.graph_wrap {
+  width: 200px;
+}
+
+.graph_wrap > div {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.graph_wrap .score_num {
+  flex: 1;
+}
+
+.graph_wrap .graph_bg {
+  background: #ddd;
+  flex: 5;
+  height: 5px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.graph_wrap .score_count{
+  flex: 2;
+}
+
+.graph_wrap .graph_bg .graph {
+  width: 50%;
+  background: gold;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.review_list {
+  /* width: 100%; */
+  /* margin: 15px auto 30px; */
+  /* font-size: 1.8rem; */
+}
+
+.review_list li {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 1%;
+}
+
+.review_list .manager_comment {
+  border: 1px solid;
+  margin: 2% 0 0 3%;
+  padding: 1%;
+  border-radius: 10px;
+}

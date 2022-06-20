@@ -1,0 +1,25 @@
+footer {
+   background: var(--bm-color);
+   height: 130px;
+   font-size: 13px;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+footer > div {
+  width : 1200px;
+  height: 80px;
+}
+
+@media  (max-width:767px) {
+  footer {
+     height: 100px; 
+  }
+  
+  footer > div {
+     width : 90%;
+  }
+
+}

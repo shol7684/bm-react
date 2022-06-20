@@ -1,0 +1,14 @@
+.empty_img_wrap {
+  background-color: #F6F6F6;
+}
+
+.empty_img_wrap > div {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.empty_img_wrap > div img {
+  width: 100%;
+}
+
+

@@ -1,0 +1,37 @@
+.page_navigation {
+  margin-top: 5%;
+  display: flex;
+  
+  justify-content: center;
+}
+
+.page_navigation li {
+  border: 1px solid;
+  border-color: #999 transparent #999 #999;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.page_navigation li:last-child {
+  border-right: 1px solid;
+}
+
+.page_navigation .active {
+  background: var(--bm-color2);
+}
+
+.page_navigation .active a {
+  color: #fff !important;
+}
+
+
+@media(max-width:768px) {
+  .page_navigation li {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+  }
+}
+

@@ -1,0 +1,102 @@
+.myPage {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.myPage section.title {
+   width: 100%;
+}
+
+.myPage section.title h1 {
+   text-align: center;
+   margin : 30px 0;
+}
+
+.menu_wrap {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 75px 1fr 1fr;
+	width: 67%;
+	text-align: center;
+	border: 1px solid #ddd;
+	background: #ddd;
+	gap: 1px;
+}
+
+.menu_wrap .login_box { 
+   grid-column-end: span 3;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 30px; 
+   background-color: #fff;
+}
+
+.menu_wrap .login_box span {
+   font-size: 2rem;
+	font-weight: bold
+}
+
+.menu_wrap .login_box span:after {
+	content: '>';
+	color: rgb(202, 198, 198);
+	margin-left: 10px;
+}
+
+.menu_wrap .login_box .logout_btn {
+	border: none;
+	background: none;
+}
+
+
+.menu_wrap .menu {
+   background: #fff;
+}
+
+.menu_wrap img {
+   width: 130px;
+
+}
+
+.menu_wrap .name {
+   margin-bottom: 10px;
+}
+
+
+
+
+@media (max-width:1023px) {
+	.menu_wrap {
+		width: 80%;
+	}
+}
+@media  (max-width:767px) {
+	/* .myPage {
+		min-height: calc(100vh - 277px);
+	} */
+	
+	.menu_wrap {
+		width: 90%;
+		grid-template-rows: 50px 1fr 1fr;
+	}
+	
+	.menu_wrap img {
+	    width: 100px;
+	} 
+}
+
+
+@media  (max-width:480px) {
+	/* .myPage {
+		min-height: calc(100vh - 274px);
+	} */
+	.menu_wrap {
+		width: 99%;
+	}
+	
+	.menu_wrap img  {
+	    width: 80px;
+	} 
+	
+}

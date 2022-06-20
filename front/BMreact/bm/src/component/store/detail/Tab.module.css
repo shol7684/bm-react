@@ -1,0 +1,34 @@
+
+.menu {
+  width: 70%;
+}
+
+.menu_tab ul {
+  display: flex;
+  border: 2px solid #ddd;
+}
+
+.menu_tab li {
+  flex: 1;
+  border-right: 1px solid #ddd;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 5px 0;
+}
+
+.menu_tab li:last-child {
+  border-right: none;
+}
+
+.menu_tab li.active {
+  background: #30DAD9;
+	color: #fff;
+}
+
+@media ( max-width :1023px) {
+  .menu {
+    width: 95%;
+    margin: 0 auto;
+  }
+}

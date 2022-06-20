@@ -1,0 +1,222 @@
+:root {
+	--bm-color: #2AC1BC;
+	--bm-color2: #30DAD9;
+}
+
+body,
+div,
+ul,
+li,
+dl,
+dt,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+legend,
+p,
+select,
+table,
+th,
+td,
+tr,
+textarea,
+button,
+form {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #222;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #390;
+}
+
+
+html {
+	font-size: 62.5%;
+}
+
+dl,
+ul,
+ol,
+li,
+menu {
+	list-style: none;
+}
+
+input {
+	border: none;
+}
+
+h1 {
+	font-size: 2.4rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.8rem;
+}
+
+textarea,
+input {
+	border-radius: 5px;
+}
+
+textarea,
+input:focus {
+	outline: none;
+}
+
+/* 인풋 number 화살표 업애기 */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+/* 스윗얼럿 */
+.swal2-html-container {
+	font-size: 1.6rem !important;
+}
+
+.swal2-popup {
+	width: 478px !important;
+}
+
+.swal2-popup button {
+	font-size: 1.4rem !important;
+}
+
+.swal2-confirm {
+	order: 1;
+	background-color: var(--bm-color) !important;
+}
+
+.swal2-cancel {
+	background: #fff !important;
+	color: #000 !important;
+	border: 1px solid #ddd !important;
+}
+
+
+/* 폰트어섬 별 */
+.fas.fa-star {
+	color: gold;
+}
+
+.fas.fa-heart {
+	color: red;
+	cursor: pointer;
+}
+
+.fa-check-square {
+	color: #999999;
+}
+
+
+button {
+	cursor: pointer;
+}
+
+input[type="submit"] {
+	cursor: pointer;
+}
+
+/* 크기 변경 x */
+textarea {
+	resize: none;
+}
+
+select {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+body,
+input,
+textarea,
+select,
+button,
+table {
+	font-family: 'Jua', sans-serif;
+	color: #222;
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+
+/* 중앙 */
+.center_alignment {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.input_base {
+	margin: 3px auto;
+	width: 100%;
+	height: 40px;
+	padding: 0 1%;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+}
+
+/* nav 바닥에 붙이기 */
+#root > div,
+#root main {
+	min-height: calc(100vh - 191px);
+}
+
+
+@media (max-width :767px) {
+	html {
+		font-size: 56%;
+	}
+	
+	#root > div,
+	#root main {
+		min-height: calc(100vh - 156px);
+	}
+
+
+}
+
+@media (max-width :480px) {
+	html {
+		font-size: 45%;
+	}
+}
+
+@media (max-width :767px) {
+
+	input[type="submit"],
+	input[type="button"],
+	textarea,
+	button,
+	select {
+		appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		/* border-radius: 0; */
+		/* -webkit-border-radius: 0;
+		-moz-border-radius: 0; */
+	}
+}

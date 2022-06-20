@@ -1,0 +1,21 @@
+
+.title {
+  text-align: center;
+	margin: 30px 0;
+  font-size: 1.8rem;
+
+}
+
+.title span {
+  margin-left: 5px;
+
+}
+
+.title .review_count:after {
+  content: '|';
+  margin-left: 5px;
+}
+
+.title i {
+  cursor: pointer;
+}

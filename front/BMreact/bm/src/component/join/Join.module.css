@@ -1,0 +1,47 @@
+.join_page {
+	width: 70%;
+	margin: 40px auto;
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	padding-bottom: 40px;
+   text-align: center;
+}
+
+.join_page .bm_img {
+   width: 50%;
+}
+
+.join_page form {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.join_page .input_wrap {
+   margin: 10px auto;
+}
+
+.join_page .join_btn {
+   width: 100%;
+	height: 40px;
+   color: #fff;
+   /* background: rgb(221, 221, 221) */
+	 background: var(--bm-color);
+}
+
+@media ( max-width :1023px) {
+	.join_page .join_page {
+		width: 90%;
+	}
+}
+
+
+@media ( max-width : 767px ) {
+	.join_page {
+		width: 99%;
+	}
+	
+	.join_page form {
+		width: 90%;
+	}
+}
+

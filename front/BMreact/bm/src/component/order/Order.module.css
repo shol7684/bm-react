@@ -1,0 +1,218 @@
+.order_page {
+  width: 800px;
+  margin: 0 auto 10%;
+
+}
+
+.order_page .temp_img {
+  width: 500px;
+  margin: 0 auto;
+} 
+
+.order_page .temp_img img {
+  width: 100%;
+}
+
+.order_page div {
+  margin-bottom: 5px;
+}
+
+.order_page h1 {
+  text-align: center;
+  margin: 30px 0 50px 0;
+}
+
+
+
+.order_page .store_name {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1%;
+}
+
+.order_page .store_name button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.order_page .cart_list > li {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+}
+
+
+.order_page .menu_name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order_page .menu_name button {
+  border: none;
+  background: none;
+  color: #999;
+}
+
+.order_page .menu_price {
+  color: #999;
+}
+
+.order_page .menu_price li {
+  list-style: disc;
+  margin-left: 2%;
+}
+
+/* 수량변경버튼 */
+.order_page .quantity{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+
+.order_page .quantity_btn_wrap {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 150px;
+  display: flex;
+  border-radius: 40px;
+  align-items: center;
+}
+
+.order_page .quantity_btn_wrap button {
+  height: 100%;
+  flex: 1;
+  border: none;
+  background: none;
+  font-size: 2rem;
+}
+
+.order_page .quantity_btn_wrap span {
+  flex: 1;
+  text-align: center;
+}
+
+
+/* 배달 정보 */
+.order_page .delevery_info {
+  margin: 3% 0;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1%;
+}
+.order_page .delevery_info .change_address {
+  margin-left: 2%;
+  background-color: #eee;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* 요청사항 */
+.order_page .request {
+  border-bottom: 1px solid #000;
+}
+
+.order_page .request textarea {
+  width: 100%;
+  padding: 0 1%;
+  box-sizing: border-box;
+  height: 60px;
+}
+
+/* 결제방법 */
+.order_page .pay_method {
+  margin: 3% 0;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1%;
+}
+
+.order_page .pay_method label {
+  margin-right: 1%;
+}
+
+
+
+/* 포인트 */
+.order_page .point {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+}
+
+.order_page .use_point_wrap {
+  border: 1px solid #333333;
+  position: relative;
+  border-radius: 5px;
+}
+
+.order_page .use_point_wrap > div {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  align-items: center;
+  margin: 1%
+}
+
+.order_page .use_point_wrap .show_input {
+  margin-right: 10px;
+  border: none;
+  background: none;
+}
+
+.order_page .use_point_wrap .point_input {
+  display: none;
+  opacity: 0;
+}
+
+.order_page .use_point_wrap input {
+  flex: 1; 
+}
+
+.order_page .use_point_wrap .use_point {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  background: none;
+}
+
+
+/* 주문버튼 */
+.order_page .btn_wrap {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.order_page .btn_wrap button {
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  border: 2px solid #ddd;
+  font-weight: bold;
+}
+
+.order_page .btn_wrap button:first-child {
+  background: #999;
+}
+.order_page .btn_wrap button:last-child {
+  background: var(--bm-color2);
+}
+
+
+
+
+@media ( max-width :1024px) {
+	.order_page {
+		width: 95%;
+	}
+}
+
+@media ( max-width :767px) {
+	
+  .order_page .btn_wrap button {
+    height: 40px;
+  }
+}

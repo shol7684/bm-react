@@ -1,0 +1,22 @@
+.likes_page {
+  width: 1000px;
+  margin: 0 auto;
+  min-height: calc(100vh - 191px);
+}
+
+.likes_page h1 {
+  text-align: center;
+  margin: 30px 0;
+}
+
+@media(max-width: 1024px) {
+  .likes_page {
+    width: 100%;
+  }
+}
+@media(max-width: 1024px) {
+  .likes_page {
+    min-height: calc(100vh - 156px);
+  }
+}
+

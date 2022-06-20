@@ -1,0 +1,139 @@
+
+.cart {
+  width: 28%;
+  position: relative;
+}
+
+.cart > div {
+  border: 1px solid #ddd;
+}
+
+.cart > div h2 {
+  background-color: #333333;
+	color: #fff;
+	text-align: center;
+}
+
+.cart .deleteAll {
+  position: absolute;
+  color: #fff;
+  right: 10px;
+	top: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.cart .cart_list {
+  flex: 1;
+}
+
+.cart .cart_list > ul {
+  max-height: 400px;
+	overflow: auto;
+}
+
+.cart .cart_list > ul > li {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+  margin: 3% 5%;
+
+}
+
+.cart .cart_list .cancle_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background: none;
+  font-size: 1.8rem;
+}
+
+.cart .option_list{
+  color: #999;
+  margin-left: 5px;
+}
+
+.cart .cart_total {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 3% 0;
+}
+
+.cart .empty {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.cart .order_btn {
+  width: 100%;
+	height: 30px;
+	font-size: 1.8rem;
+	border: none;
+	cursor: pointer;
+	background: #ddd;
+	color: #fff;
+}
+
+.cart .active {
+  width: 100%;
+	height: 30px;
+	font-size: 1.8rem;
+	border: none;
+	cursor: pointer;
+  background: #30DAD9;
+	color: #fff;
+}
+
+
+
+/* 모바일 장바구니 */
+.m_cart {
+  display: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  box-shadow: 0px 2px 3px 0px rgb(0 0 0 / 25%);
+  background: var(--bm-color);
+  cursor: pointer;
+}
+
+.m_cart i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.m_cart span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  font-size: 13px;
+  text-align: center;
+  color: var(--bm-color);
+  background: #fff;
+  border: 2px solid var(--bm-color);
+  font-weight: bold;
+    /* display: none; */
+}
+
+
+
+
+@media ( max-width :1023px) {
+
+	.cart {
+		display: none;
+	}
+
+  .m_cart {
+    display: flex;
+  }
+
+}

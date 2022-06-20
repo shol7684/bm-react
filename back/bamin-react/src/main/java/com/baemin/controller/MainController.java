@@ -1,0 +1,25 @@
+package com.baemin.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class MainController {
+	
+	@ResponseBody
+	@GetMapping("/")
+	public String r() {
+		
+		return "루트";
+	}
+	
+	
+	@ResponseBody
+	@GetMapping("/api/main")
+	public String main() {
+		System.out.println("메인");
+		return "main";
+	}
+
+}

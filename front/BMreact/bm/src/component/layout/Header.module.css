@@ -1,0 +1,34 @@
+header {
+	width: 100%;
+	height: 80px;
+	background: var(--bm-color);
+	position: relative;
+}
+
+header > div {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header img {
+	width: 160px;
+}
+
+
+@media ( max-width :1250px) {
+   header > div {
+      width: 100%;
+   }
+}
+
+@media ( max-width :767px) {
+	header img {
+		width: 120px;
+		position: relative;
+		left: -15px;
+	}
+	header {
+		height: 60px;
+	}
+
+}
