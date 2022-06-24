@@ -1,0 +1,49 @@
+package com.baemin.common;
+
+import java.util.Random;
+import java.util.UUID;
+
+import javax.servlet.http.Cookie;
+
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
+
+public class CreateGuestId {
+	
+	private static final String COOKIE_ID = "gid";
+	
+	
+	public static String getGuestId() {
+		
+		ServletRequestAttributes attr = (ServletRequestAttributes)RequestContextHolder.currentRequestAttributes();
+		
+		Cookie[] cookies = attr.getRequest().getCookies();
+		
+		for(int i=0;i<cookies.length;i++) {
+			if(cookies[i].getName().equals(COOKIE_ID)) {
+				return cookies[i].getValue();
+			}
+		}
+		
+		
+		return createId();
+	}
+	
+	private static String createId() {
+//		'1655768454469_6r5zirl0'
+//		13 _ 8
+		
+		System.out.println(System.currentTimeMillis());
+		
+
+		System.out.println(UUID.randomUUID().toString().substring(8));
+		
+		
+		
+		return null;
+	}
+	
+	
+	
+
+}

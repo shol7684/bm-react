@@ -1,0 +1,46 @@
+package com.baemin.aop;
+
+import java.util.Arrays;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.stereotype.Component;
+
+import com.baemin.common.GuestId;
+import com.baemin.dto.Store;
+import com.baemin.login.LoginDetails;
+
+@Aspect
+@Component
+public class AOP {
+
+	@Around("@annotation(com.baemin.aop.MemberCheck)")
+	public Object memberCheck(ProceedingJoinPoint j) throws Throwable   {
+		
+		System.out.println(SecurityContextHolder.getContext().getAuthentication().getPrincipal() instanceof LoginDetails);
+		
+		LoginDetails user = (LoginDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+		
+		Object userId = null;
+		boolean member = false;
+	
+		if(user != null) {
+			userId = user.getUser().getUserId();
+			member = true;
+		} else {
+			userId = GuestId.getId();
+			member = false;
+		}
+		System.out.println(userId);
+		System.out.println(" member : " + member);
+		
+		Object resultObj = j.proceed(new Object[] {userId, member});
+		
+		return resultObj;
+	}
+
+}

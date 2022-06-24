@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="order">
+
+	<insert id="memberOrder">
+			insert into order_member (
+				order_num
+		    ,user_id
+		    ,store_id
+		    ,delevery_address
+		    ,pay_method 
+		    ,used_point 
+		    ,total_price
+		    ,request 
+		    ,imp_uid 
+		    ,order_menu_json
+			) values (
+				#{order.orderNum}
+				,#{userId}
+				,#{order.storeId}
+				,#{order.address}
+				,#{order.payMethod}
+				,#{order.usedPoint}
+				,#{order.totalPrice}
+				,#{order.request}
+				,''			
+				,#{orderMenuJson}
+			)
+	</insert>
+	
+	
+	<insert id="nonMemberOrder">
+		insert into order_non_member (
+				order_num
+		    ,user_id
+		    ,store_id
+		    ,delevery_address
+		    ,pay_method 
+		    ,used_point 
+		    ,total_price
+		    ,request 
+		    ,imp_uid 
+		    ,order_menu_json
+			) values (
+				#{order.orderNum}
+				,#{userId}
+				,#{order.storeId}
+				,#{order.address}
+				,#{order.payMethod}
+				,#{order.usedPoint}
+				,#{order.totalPrice}
+				,#{order.request}
+				,''			
+				,#{orderMenuJson}
+			)
+	</insert>
+	
+	
+	<select id="memberOrderList" resultType="OrderDetail">
+		select 		o.*
+							s.store_name
+							,s.delevery_tip
+	            ,s.store_img
+		from 			order_member o
+		left join	store s	
+		on				o.store_id = s.store_id
+		where			user_id = #{userId}
+	</select>
+	
+	
+	<select id="nonMemberOrderList" resultType="OrderDetail">
+		select 		o.*
+							,s.store_name
+	            ,s.store_img
+		from 			order_non_member o
+		left join	store s	
+		on			o.store_id = s.store_id
+		where			user_id = #{guestId}
+	</select>
+	
+	
+	<select id="orderDetail" resultType="OrderDetail">
+		<if test="userInfo == null">
+			select 		o.order_num
+								,o.order_date
+                ,o.delevery_address
+                ,o.delevery_status
+                ,o.pay_method
+                ,o.used_point
+                ,o.total_price
+                ,o.request
+                ,o.order_menu_json
+                ,s.store_name
+                ,s.delevery_tip
+			from			order_non_member o
+			left join	store s
+			on				o.store_id = s.store_id 
+			where 		order_num = #{orderNum}
+		</if>
+		
+		<if test="userInfo != null">
+			select 		o.order_num
+								,o.order_date
+                ,o.delevery_address
+                ,o.delevery_status
+                ,o.pay_method
+                ,o.used_point
+                ,o.total_price
+                ,o.request
+                ,o.order_menu_json
+                ,s.store_name
+                ,s.delevery_tip
+			from			order_member o
+			left join	store s
+			on				o.store_id = s.store_id 
+			where 		order_num = #{orderNum}
+		</if>
+	</select>
+	
+	
+
+	
+	
+	
+	
+</mapper>

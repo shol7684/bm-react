@@ -17,7 +17,7 @@ function Likes() {
 
       <h1>찜한가게</h1>
       
-      <StoreList></StoreList>
+      {/* <StoreList></StoreList> */}
     </div>
     }
     </>

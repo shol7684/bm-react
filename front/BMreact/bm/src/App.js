@@ -17,6 +17,10 @@ import OrderList from './component/orderList/OrderList';
 import Likes from './component/likes/Likes';
 import Loading from './component/loading/Loading';
 import axios from 'axios';
+import OrderDetail from './component/orderDetail/OrderDetail';
+import 'moment/locale/ko';
+import Search from './component/search/Search';
+
 
  
 
@@ -73,9 +77,19 @@ function App() {
                 <OrderList></OrderList>}>
               </Route>
 
+              {/* 주문 상세 */}
+              <Route path="/orderDetail/:orderNum" element={
+                <OrderDetail></OrderDetail>}>
+              </Route>
+
               {/* 찜한가게 */}
               <Route path="/likes" element={ 
                 <Likes></Likes> }>
+              </Route>
+
+              {/* 가게검색 */}
+              <Route path="/search" element={ 
+                <Search></Search> }>
               </Route>
 
             </Route>
@@ -92,7 +106,7 @@ function App() {
 
 
             {/* 주문하기 페이지 */}
-            <Route path="/order/:storeId" element={
+            <Route path="/order" element={
               <StoreDetailProvider>
                 <Order />
               </StoreDetailProvider> 

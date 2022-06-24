@@ -986,3 +986,4012 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-20 13:07:55.558
 !MESSAGE executing callback sts4.classpath.BpIplUwX SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-20 13:47:27.877
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-06-20 13:54:14.085
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:54:15.108
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:54:26.715
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:54:27.431
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:54:40.903
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:54:41.894
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:55:03.438
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:55:04.154
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:55:12.239
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:55:12.950
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:55:41.366
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:55:42.073
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:55:43.306
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:55:44.031
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:55:56.928
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:55:57.661
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:56:17.657
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:56:18.375
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:56:49.055
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:56:49.754
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:14.069
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:18.004
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:18.201
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:32.528
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:32.663
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:32.812
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:37.335
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:37.585
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:37.670
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:37.829
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:37.954
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:38.043
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:38.190
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:38.347
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:39.454
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:39.549
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:40.525
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:41.148
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:41.240
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:41.322
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:41.566
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:44.364
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 13:57:44.972
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 14:15:20.218
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 14:15:20.879
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 14:16:00.694
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 14:16:01.518
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 19:03:22.641
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-20 19:03:23.466
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-20 19:03:25.333
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BpIplUwX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-20 19:03:25.334
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.BpIplUwX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-20 19:03:25.335
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-20 19:03:25.336
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BpIplUwX => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-06-20 19:03:27.932
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-06-20 19:03:31.819
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.springsource.ide.eclipse.commons.livexp.core.AsyncLiveExpression$1
+!SESSION 2022-06-21 05:00:43.107 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-06-21 05:01:03.123
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-21 05:01:03.123
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b9a2629,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50aa9a91,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:16.343
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:16.345
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3413a3a6[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:16.354
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:16.556
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2022-06-21 05:01:19.016
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-21 05:01:19.119
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82102'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:26.882
+!MESSAGE Boot LS startup time from start to initialized: 10514ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:27.049
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gPqdfTNZisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:27.055
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:27.057
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:27.059
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:27.059
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gPqdfTNZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:27.061
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:27.141
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:27.148
+!MESSAGE buffering callback sts4.classpath.gPqdfTNZ bamin-react false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:27.149
+!MESSAGE executing callback sts4.classpath.gPqdfTNZ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 05:01:27.700
+!MESSAGE executing callback sts4.classpath.gPqdfTNZ SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-06-21 05:08:00.738
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 05:08:01.364
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 06:25:19.463
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 06:25:20.112
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 06:25:29.702
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 06:25:30.022
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:44:33.654
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:44:34.268
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:44:59.056
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:44:59.662
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:45:55.939
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:45:56.531
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:46:10.237
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:46:10.828
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:48:04.644
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:48:05.247
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-21 07:48:05.527
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-06-21 07:48:08.387
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:48:08.949
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:48:18.344
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:48:19.238
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:48:31.057
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:48:34.139
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:48:34.339
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 07:48:34.989
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 08:40:10.718
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 08:40:11.466
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 08:40:14.796
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 08:40:15.776
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 08:43:38.117
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 08:43:38.842
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 08:43:48.837
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 08:43:49.848
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 09:02:58.063
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 09:02:58.656
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 09:05:27.379
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 09:05:28.189
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 09:13:09.225
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 09:13:10.909
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 09:57:46.642
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 09:57:47.538
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 09:58:00.406
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 09:58:01.003
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 09:58:33.342
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 09:58:34.361
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 10:11:31.071
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 10:11:31.697
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 10:40:09.218
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 10:40:09.824
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:24.739
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:25.383
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:29.599
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:30.195
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:36.282
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:36.514
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:36.625
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:36.929
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:38.522
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:38.592
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:38.688
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:38.771
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:38.907
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:05:43.943
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:15:34.293
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:15:34.926
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:15:36.204
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:15:36.797
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:15:44.578
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:15:45.380
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:16:52.237
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:16:52.836
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:18:01.231
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:18:02.057
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:18:26.968
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:18:27.937
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:18:34.501
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:18:35.091
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:18:47.321
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:18:47.917
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:20:03.402
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:20:04.132
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:20:14.172
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:20:15.060
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:20:19.670
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:20:20.500
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:20:27.226
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:20:28.124
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:21:06.490
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:21:07.088
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:21:11.687
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:21:12.640
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:21:52.548
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:21:53.139
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:25:53.708
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:25:54.697
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:26:00.065
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:26:00.984
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:27:53.400
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:27:54.001
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:27:56.512
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:27:57.417
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:28:08.342
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:28:09.148
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:28:55.440
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:28:56.032
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:29:30.620
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:29:31.214
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:29:34.051
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:29:34.646
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:33:49.512
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:33:50.167
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:34:24.516
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:34:25.185
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:36:00.824
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:36:01.517
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:36:23.746
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:36:24.391
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:42:59.523
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:43:00.170
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:43:25.168
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-21 14:43:26.087
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 14:44:43.396
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gPqdfTNZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 14:44:43.397
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.gPqdfTNZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 14:44:43.398
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-21 14:44:43.399
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gPqdfTNZ => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-06-21 14:44:43.964
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-06-22 07:50:24.788 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-06-22 07:50:48.622
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-22 07:50:48.622
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3da30ce5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e4b70c6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:50:54.404
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:50:54.405
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@938511d[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:50:54.420
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:50:54.854
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-22 07:50:56.251
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82102'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:51:01.368
+!MESSAGE Boot LS startup time from start to initialized: 6842ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:51:02.126
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MByBlHhSisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:51:02.131
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:51:02.133
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:51:02.134
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:51:02.135
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:51:02.136
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MByBlHhS => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:51:02.186
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:51:02.192
+!MESSAGE buffering callback sts4.classpath.MByBlHhS bamin-react false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:51:02.193
+!MESSAGE executing callback sts4.classpath.MByBlHhS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-22 07:51:02.544
+!MESSAGE executing callback sts4.classpath.MByBlHhS SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-06-22 08:49:17.525
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 08:49:18.278
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:08:44.461
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:08:44.618
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.ui 2 2 2022-06-22 09:09:38.550
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2022-06-22 09:09:47.619
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:09:48.278
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:10:35.133
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:10:35.731
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:13:37.245
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:13:37.986
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:13:38.901
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:13:39.513
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:15:24.120
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.jdt.core 4 2 2022-06-22 09:15:24.503
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResourceDelta.getKind()" because "resourceDelta" is null
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:773)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:815)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.elementChanged(PackageExplorerContentProvider.java:139)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1755)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1743)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1576)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1552)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2273)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2163)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:478)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:169)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-06-22 09:15:24.506
+!MESSAGE Exception occurred in listener of Java element change notification
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResourceDelta.getKind()" because "resourceDelta" is null
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:773)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:815)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.elementChanged(PackageExplorerContentProvider.java:139)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1755)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1743)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1576)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1552)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2273)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2163)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:478)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:169)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2022-06-22 09:15:24.783
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:16:18.253
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:16:18.912
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.jdt.core 4 2 2022-06-22 09:16:51.875
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResourceDelta.getKind()" because "resourceDelta" is null
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:773)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:815)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.elementChanged(PackageExplorerContentProvider.java:139)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1755)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1743)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1576)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1552)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2273)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2163)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:478)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2327)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:461)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:764)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5007)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1262)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1316)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7151)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:213)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:333)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$1(SaveableHelper.java:196)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2345)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2343)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:260)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:207)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:150)
+	at org.eclipse.ui.internal.WorkbenchPage.saveSaveable(WorkbenchPage.java:3820)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3833)
+	at org.eclipse.ui.internal.handlers.SaveHandler.execute(SaveHandler.java:82)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor199.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1270)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1042)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-06-22 09:16:51.877
+!MESSAGE Exception occurred in listener of Java element change notification
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResourceDelta.getKind()" because "resourceDelta" is null
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:773)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:815)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.elementChanged(PackageExplorerContentProvider.java:139)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1755)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1743)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1576)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1552)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2273)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2163)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:478)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2327)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:461)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:764)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5007)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1262)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1316)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7151)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:213)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:333)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$1(SaveableHelper.java:196)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2345)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2343)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:260)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:207)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:150)
+	at org.eclipse.ui.internal.WorkbenchPage.saveSaveable(WorkbenchPage.java:3820)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3833)
+	at org.eclipse.ui.internal.handlers.SaveHandler.execute(SaveHandler.java:82)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor199.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1270)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1042)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2022-06-22 09:16:51.881
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:16:52.541
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:18:13.332
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:18:14.066
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:18:15.434
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:18:16.235
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:21:10.543
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:21:11.192
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:21:25.216
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:21:26.202
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:21:39.086
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:21:39.729
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:21:47.583
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:21:48.396
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:22:22.900
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:22:23.501
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:26:48.211
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:26:48.854
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:27:06.148
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:27:06.804
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:27:22.097
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:27:22.809
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:28:03.666
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:28:04.266
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:28:40.593
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:28:41.261
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:28:48.223
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:28:48.813
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:29:01.210
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:29:01.804
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:29:41.146
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:29:41.736
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:29:59.818
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:30:00.721
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:30:32.186
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:30:32.773
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:30:40.774
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:30:41.372
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:32:12.421
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:32:13.039
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:33:07.060
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:33:07.697
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:33:26.127
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:33:26.723
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:33:30.623
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:33:31.498
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:33:46.959
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:33:47.548
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:38:13.652
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:38:14.298
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:40:31.043
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:40:31.213
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:41:44.704
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:41:45.297
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:42:18.154
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:42:19.025
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:44:40.625
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:44:41.239
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:45:25.881
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:45:26.216
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:46:10.255
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 09:46:11.114
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 10:15:02.903
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 10:15:03.496
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:29:49.203
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:29:49.818
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:31:11.646
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:31:12.380
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:31:12.453
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:31:13.241
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:31:13.506
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:31:44.814
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:31:45.385
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:32:04.858
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:32:05.758
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:33:20.655
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:33:21.057
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:34:12.376
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 11:34:12.494
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:17:48.782
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:17:49.431
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:18:20.760
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:18:21.517
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:18:21.556
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:18:21.857
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:18:53.682
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:18:53.801
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:19:13.019
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:19:13.146
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:20:21.261
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:20:21.861
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:21:16.716
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:21:17.314
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:22:07.146
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:22:07.767
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:23:55.883
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:23:56.686
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:24:43.532
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:24:44.129
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:24:50.330
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:24:51.001
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:24:57.780
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:24:58.389
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:27:50.043
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:27:50.661
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:30:00.560
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:30:01.433
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:30:11.418
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 14:30:12.306
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:06:02.542
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:06:03.224
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:23:13.293
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:23:13.900
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:24:08.032
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:24:08.633
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:24:18.189
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:24:18.799
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:24:36.987
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:24:37.581
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:24:54.438
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:24:55.033
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:25:05.941
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:25:06.532
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:26:36.436
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:26:37.033
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:28:50.382
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:28:50.983
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:29:12.940
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:29:13.533
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:29:49.224
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:29:49.927
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:29:52.997
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:29:53.617
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:02.844
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:03.848
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:16.201
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:16.985
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:17.022
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:21.479
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:22.136
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:22.174
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:23.070
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:23.340
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:23.488
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:23.655
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:24.311
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:24.351
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:25.835
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:26.546
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:26.584
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:27.288
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:28.007
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:31.992
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:32.703
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:32.740
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:38.313
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:38.931
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:38.980
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:40.113
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:40.792
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:40.844
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:42.504
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:47.236
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:30:47.685
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:31:45.247
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:31:45.870
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:32:26.457
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:32:26.941
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:32:56.735
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:32:57.538
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:32:59.128
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:32:59.988
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:34:38.281
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:34:38.890
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:36:31.126
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:36:31.722
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:37:04.421
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:37:05.017
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:38:06.887
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:38:07.504
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:38:54.127
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:38:54.743
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:00.973
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:01.571
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:12.251
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:12.846
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:17.003
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:17.602
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:24.567
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:24.809
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:24.931
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:25.125
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:25.238
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:25.465
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:37.713
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:38.072
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:55.604
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:55.691
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:55.882
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:56.544
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:56.581
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:39:57.457
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:40:04.722
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:40:05.460
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:40:22.867
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:40:23.465
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:40:53.460
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:40:54.298
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:41:14.727
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:41:15.318
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:41:26.014
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:41:26.756
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:42:09.273
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:42:09.441
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:42:14.280
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:42:14.622
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:42:20.383
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:42:21.403
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:43:09.572
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 16:43:10.166
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 17:28:18.504
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 17:28:19.309
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 17:28:36.390
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 17:28:37.084
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 17:34:33.613
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 17:34:34.209
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 19:52:29.980
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 19:52:32.433
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 19:52:46.813
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 19:52:47.034
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:37:33.581
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:37:34.196
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:37:53.386
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:37:53.985
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:42:04.969
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:42:05.580
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:42:14.215
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:42:15.026
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:43:42.060
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:43:42.701
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:44:14.390
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:44:14.986
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2022-06-22 21:44:31.639
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [getOrderListMember(String) [in OrderServiceImp [in [Working copy] OrderServiceImp.java [in com.baemin.service [in src/main/java [in bamin-react]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:617)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.Member.getFlags(Member.java:172)
+	at org.eclipse.jdt.internal.corext.util.JdtFlags.isPrivate(JdtFlags.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkSuperImplementationDetector.isOverriddenMethod(JavaElementHyperlinkSuperImplementationDetector.java:57)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkSuperImplementationDetector.addHyperlinks(JavaElementHyperlinkSuperImplementationDetector.java:44)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:136)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2022-06-22 21:44:31.643
+!MESSAGE getOrderListMember(String) [in OrderServiceImp [in [Working copy] OrderServiceImp.java [in com.baemin.service [in src/main/java [in bamin-react]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2022-06-22 21:44:31.644
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [getOrderListMember(String) [in OrderServiceImp [in [Working copy] OrderServiceImp.java [in com.baemin.service [in src/main/java [in bamin-react]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:617)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.SourceMethod.getReturnType(SourceMethod.java:204)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkReturnTypeDetector.addHyperlinks(JavaElementHyperlinkReturnTypeDetector.java:43)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:136)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2022-06-22 21:44:31.644
+!MESSAGE getOrderListMember(String) [in OrderServiceImp [in [Working copy] OrderServiceImp.java [in com.baemin.service [in src/main/java [in bamin-react]]]]] does not exist
+
+!ENTRY Activator 1 0 2022-06-22 21:44:44.590
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:44:45.206
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:45:08.252
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:45:08.863
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:45:13.535
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:45:14.129
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:45:48.515
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:45:49.120
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:47:29.934
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:47:30.532
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:47:39.351
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:47:40.306
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:50:44.127
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:50:44.721
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:56:18.453
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:56:19.249
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:56:26.382
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 21:56:27.078
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:02:58.721
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:02:59.317
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:05:15.085
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:05:15.680
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:05:25.202
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:05:25.817
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:06:07.122
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:06:07.719
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:06:16.972
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:06:17.572
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:10:57.830
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:10:58.456
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:16:18.639
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-22 22:16:19.567
+!MESSAGE Has main method computation for project 'bamin-react'
+!SESSION 2022-06-23 08:11:38.698 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-06-23 08:11:52.557
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2022-06-23 08:12:23.656
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-23 08:12:23.656
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e764e5c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42457891,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:30.818
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:30.821
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4f2731[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:30.838
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:31.368
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-23 08:12:33.191
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82102'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-23 08:12:40.317
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:42.212
+!MESSAGE Boot LS startup time from start to initialized: 11211ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:43.057
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.eMOeQBZjisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:43.062
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:43.065
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:43.067
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:43.067
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:43.068
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.eMOeQBZj => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:43.144
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:43.152
+!MESSAGE buffering callback sts4.classpath.eMOeQBZj bamin-react false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:43.153
+!MESSAGE executing callback sts4.classpath.eMOeQBZj 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 08:12:43.881
+!MESSAGE executing callback sts4.classpath.eMOeQBZj SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-06-23 08:13:11.495
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 08:13:13.592
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-23 10:22:28.001
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-06-23 10:28:42.880
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 10:28:43.527
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 10:28:57.772
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 10:28:58.375
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 10:29:04.712
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 10:29:05.682
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 10:29:08.544
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 10:29:09.142
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 10:29:42.466
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 10:29:43.087
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:21:52.933
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:21:53.548
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:21:55.641
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:21:56.253
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:22:01.669
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:22:02.548
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:23:19.851
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:23:20.509
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:23:26.111
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:23:26.678
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:23:36.682
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:23:37.280
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:23:46.510
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:23:47.454
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:25:26.013
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:25:27.955
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:25:34.194
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:25:34.592
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:25:55.331
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:25:55.706
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:25:57.735
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:25:58.108
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:26:09.560
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:26:10.156
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:28:57.206
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:28:57.919
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:30:52.084
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:30:52.801
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:34:56.453
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:34:56.621
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:35:39.314
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:35:39.689
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:36:24.805
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:36:25.407
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:36:30.289
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:36:31.252
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:36:32.907
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:36:33.788
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:38:22.555
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:38:23.321
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:40:58.035
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 11:40:58.791
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 12:03:26.876
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 12:03:27.585
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 12:05:23.406
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 12:05:23.525
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 12:05:49.408
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 12:05:49.638
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 12:06:33.543
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-23 12:06:34.135
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 20:23:32.287
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eMOeQBZj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 20:23:32.289
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.eMOeQBZj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 20:23:32.289
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-23 20:23:32.291
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eMOeQBZj => OK
+!SESSION 2022-06-24 08:02:39.639 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-06-24 08:02:46.721
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2022-06-24 08:03:00.710
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-24 08:03:00.710
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5bed0ff4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17a5ae7b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:07.026
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:07.027
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4084b579[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:07.041
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:07.382
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-24 08:03:09.556
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82102'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:14.365
+!MESSAGE Boot LS startup time from start to initialized: 7224ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:15.121
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.OEWtaaNqisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:15.127
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:15.130
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:15.131
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:15.131
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:15.132
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.OEWtaaNq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:15.183
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:15.191
+!MESSAGE buffering callback sts4.classpath.OEWtaaNq bamin-react false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:15.192
+!MESSAGE executing callback sts4.classpath.OEWtaaNq 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 08:03:16.209
+!MESSAGE executing callback sts4.classpath.OEWtaaNq SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-06-24 08:03:39.994
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:03:40.884
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:03:46.733
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:03:46.881
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:16:06.959
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:16:07.573
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:16:51.510
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:16:52.125
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:17:30.300
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:17:30.913
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:17:33.329
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:17:33.936
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:19:28.007
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:19:28.620
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:19:42.122
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:19:42.777
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:20:02.587
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:20:03.193
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:22:14.013
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:22:14.613
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:23:49.588
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:23:50.201
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:25:48.915
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:25:49.526
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:26:25.420
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:26:26.020
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:27:58.179
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:27:58.789
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:29:38.198
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:29:38.803
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:31:11.911
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:31:12.513
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:31:35.730
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:31:36.336
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:31:43.613
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:31:44.496
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:32:25.970
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:32:26.577
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:32:53.571
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:32:54.179
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:33:07.049
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:33:07.652
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:33:40.769
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:33:41.328
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:34:15.074
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:34:15.681
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:34:18.843
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:34:19.653
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:38:02.596
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:38:03.154
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:38:12.148
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:38:12.749
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:41:16.118
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:41:16.727
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:53:05.610
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 08:53:06.270
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:00:26.168
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:00:27.193
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:00:56.397
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:00:57.031
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:01:32.533
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:01:33.369
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:02:29.744
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:02:30.360
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:02:38.383
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:02:39.004
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:02:42.966
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:02:43.582
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:03:00.517
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:03:01.156
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:04:02.909
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:04:03.530
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:04:11.308
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:04:11.909
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:04:19.470
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:04:20.070
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:05:09.408
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:05:10.006
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:05:20.860
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:05:21.462
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:05:32.524
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:05:33.122
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:05:53.783
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:05:54.387
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:12.069
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:12.675
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:36.672
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:36.895
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:37.020
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:37.314
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:38.483
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:38.563
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:38.651
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:38.731
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:38.875
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:39.557
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:39.625
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:40.016
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:44.809
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:45.488
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:06:45.535
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:07:11.635
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:07:12.040
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:07:19.075
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:07:19.782
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:07:59.659
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:00.291
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:00.337
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:00.411
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:00.500
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:00.701
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:01.307
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:01.352
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:01.721
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:02.289
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:02.418
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:02.489
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:02.577
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:02.713
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:02.941
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:35.808
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:35.986
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:37.653
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:38.130
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:42.520
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:08:43.488
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:10:07.198
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:10:07.803
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:11:27.273
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:11:27.900
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:11:31.470
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:11:32.079
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:15:23.238
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:15:23.847
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:17:39.993
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:17:40.603
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:17:47.093
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:17:47.689
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:17:52.740
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:17:53.502
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:18:09.525
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:18:10.122
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:18:30.676
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:18:31.274
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:18:36.516
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:18:37.115
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:18:55.827
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:18:56.435
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.jface 2 0 2022-06-24 09:19:39.494
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-24 09:19:39.494
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47579f7b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e6802dc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2022-06-24 09:19:44.596
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.ui 2 2 2022-06-24 09:19:58.445
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2022-06-24 09:20:28.036
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 09:20:28.036
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 09:20:28.047
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 09:20:28.054
+!MESSAGE buffering callback sts4.classpath.OEWtaaNq bamin-react false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 09:20:28.055
+!MESSAGE executing callback sts4.classpath.OEWtaaNq 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 09:20:28.105
+!MESSAGE executing callback sts4.classpath.OEWtaaNq SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-06-24 09:20:28.905
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:20:29.046
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:20:58.553
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:20:59.120
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:22:23.716
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:22:24.677
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:22:39.445
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:22:40.296
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:23:32.120
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:25:49.954
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:26:02.812
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 09:26:02.812
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 09:26:02.820
+!MESSAGE classpath=89 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 09:26:02.826
+!MESSAGE buffering callback sts4.classpath.OEWtaaNq bamin-react false 89
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 09:26:02.827
+!MESSAGE executing callback sts4.classpath.OEWtaaNq 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 09:26:02.860
+!MESSAGE executing callback sts4.classpath.OEWtaaNq SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-06-24 09:26:03.580
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:27:34.313
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:27:34.863
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:27:44.856
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:27:45.455
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:27:56.856
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:27:57.830
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:28:35.221
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:28:35.822
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:30:08.781
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:30:09.452
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:30:22.244
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:30:22.844
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:30:50.779
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:30:51.391
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:31:09.970
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:31:10.572
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:32:18.202
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:32:18.814
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:34:27.342
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:34:28.232
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:36:59.153
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:36:59.764
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:37:30.648
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:37:31.253
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:38:58.611
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:38:59.220
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:39:14.372
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:39:15.355
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:39:32.608
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:39:33.214
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:39:57.407
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:39:58.004
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:40:05.354
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:40:06.413
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:40:17.774
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 09:40:18.797
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:03:26.256
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:03:26.886
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:04:11.680
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:04:12.292
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:04:38.430
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-24 10:04:38.936
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-06-24 10:04:39.030
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:07:22.467
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:07:23.074
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:07:31.083
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:07:31.687
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:07:32.107
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:07:32.665
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:08:15.470
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:08:16.069
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:09:03.789
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:09:04.391
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:09:16.757
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:09:17.694
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:09:51.539
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:09:52.136
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:10:14.320
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:10:14.933
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:10:48.298
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:10:49.020
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:10:53.517
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:10:54.158
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:11:09.994
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:11:10.593
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:11:23.156
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:11:23.811
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:11:46.027
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:11:46.626
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:12:56.675
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:12:57.279
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:13:25.603
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:13:26.203
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:14:42.396
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:14:42.998
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:15:01.548
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:15:02.285
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:15:41.993
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:15:42.597
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-24 10:16:41.851
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-06-24 10:16:43.581
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:16:44.407
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:17:22.570
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:17:23.174
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:19:38.202
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:19:38.966
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:20:15.482
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:20:16.438
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:20:34.836
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:20:35.437
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:22:28.209
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:22:29.029
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:22:53.237
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:22:53.837
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:23:07.592
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:23:08.195
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:23:22.679
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:23:23.236
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:23:40.478
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:23:41.078
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:23:56.017
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:23:57.044
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:24:02.550
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:24:03.155
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:28:22.073
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:28:22.678
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:28:29.758
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:28:30.612
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:32:17.119
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:32:17.723
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:32:39.749
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:32:40.352
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:32:43.276
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:32:43.887
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:35:14.850
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:35:15.454
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:36:32.649
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:36:33.694
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:41:38.677
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:41:39.272
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:41:45.693
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:41:46.306
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:41:46.950
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:42:52.899
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:42:53.498
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:43:29.628
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:43:30.315
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:49:03.172
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:49:03.781
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:49:18.034
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:49:18.632
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:49:24.762
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:49:25.363
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:50:13.383
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:50:14.392
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:51:04.598
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:51:05.403
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:51:46.726
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:51:47.595
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:53:44.508
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:53:45.104
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:54:56.467
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:54:57.144
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:55:00.662
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:55:01.215
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:55:42.979
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:55:43.579
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:55:53.436
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:55:54.037
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:55:58.417
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:55:59.303
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:56:39.333
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:56:40.094
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-24 10:56:40.883
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-06-24 10:56:52.249
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 10:56:52.865
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 11:46:39.891
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 11:46:40.838
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 11:46:53.439
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 11:46:54.182
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 11:55:49.862
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 11:55:50.465
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:11:16.705
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:11:17.302
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:11:39.857
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:11:40.476
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:12:07.579
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:12:08.183
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:12:12.695
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:12:13.421
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:12:38.398
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:12:38.997
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:13:18.505
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:13:19.135
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:19:22.245
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:19:22.948
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:19:39.091
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:19:39.688
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:20:28.066
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:20:28.967
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:20:29.374
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:20:30.028
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:21:23.612
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:21:24.211
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:22:26.691
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:22:27.247
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:24:38.144
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:24:38.741
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:26:45.305
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:26:45.927
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:26:46.007
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:26:46.578
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:27:23.289
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:27:23.921
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:27:39.104
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:27:39.706
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:27:47.416
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:27:48.109
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:28:47.546
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:28:48.338
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:34:31.458
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:34:32.083
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:34:45.120
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:34:45.731
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:35:20.879
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:35:21.484
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:35:44.818
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:35:45.434
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:36:29.318
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:36:29.936
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:36:40.864
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:36:41.419
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:36:59.061
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:36:59.678
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:39:12.364
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:39:13.214
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:39:50.154
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:39:50.708
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:40:26.370
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:40:26.981
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:40:51.036
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:40:51.651
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:47:30.144
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:47:30.877
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:52:09.178
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:52:09.778
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:52:35.461
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:52:36.061
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:53:18.623
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:53:19.225
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:53:24.436
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:53:25.212
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:53:46.741
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 12:53:47.633
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:03:17.703
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:03:18.307
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:03:32.953
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:03:33.551
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:03:53.211
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:03:53.808
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:04:37.930
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:04:38.530
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:04:43.973
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:04:44.925
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:05:07.979
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:05:08.596
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:06:50.075
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:06:50.677
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-24 13:07:03.984
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-06-24 13:07:06.099
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:07:06.700
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:07:13.960
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:07:14.561
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:07:42.712
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:07:43.321
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:08:13.514
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:08:14.120
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:08:19.650
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:08:20.249
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:08:46.770
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:08:47.372
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:31:20.978
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:31:21.589
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:31:25.002
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:31:25.601
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:32:30.022
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:32:30.621
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:32:36.455
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:32:37.054
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:32:47.240
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:32:47.842
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:33:17.119
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:33:17.719
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:33:37.742
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:33:38.350
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-24 13:33:38.980
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-06-24 13:33:46.137
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:33:46.752
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:36:56.860
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:36:57.462
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:56:58.308
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:56:58.962
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:58:37.312
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:58:37.918
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:59:08.241
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:59:08.843
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:59:20.530
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 13:59:21.137
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:00:09.689
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:00:10.290
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:04:53.014
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:04:53.611
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:05:28.325
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:05:28.926
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:05:41.034
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:05:41.859
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:06:34.281
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:06:34.881
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:12:41.487
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:12:42.170
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:13:03.766
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:13:04.748
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:01.027
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:01.763
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:01.828
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:02.843
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:19.903
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:20.038
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:28.373
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:28.973
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:56.005
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:56.053
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:57.083
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:57.130
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:58.682
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:15:58.933
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:24.871
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:25.176
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:25.823
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:26.623
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:26.775
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:26.886
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:26.999
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:27.166
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:27.592
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:27.889
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:28.280
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:28.425
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:28.497
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:28.665
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:28.761
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:28.896
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:29.010
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:29.161
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:29.328
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:29.641
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:29.785
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:29.962
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:30.025
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:30.129
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:30.785
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:30.830
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:31.461
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:32.166
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:32.212
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:32.457
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:45.390
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:46.019
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:46.063
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:46.749
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:47.169
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:16:47.562
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:17:03.760
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:17:03.936
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:17:55.166
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY Activator 1 0 2022-06-24 14:17:56.100
+!MESSAGE Has main method computation for project 'bamin-react'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 21:59:08.573
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OEWtaaNq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 21:59:08.575
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.OEWtaaNq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 21:59:08.576
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-24 21:59:08.577
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OEWtaaNq => OK

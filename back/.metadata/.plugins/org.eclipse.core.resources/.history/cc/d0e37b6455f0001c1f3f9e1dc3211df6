@@ -1,0 +1,14 @@
+package com.baemin.dao;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class OrderDAOImp implements OrderDAO {
+
+	@Override
+	public void order() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

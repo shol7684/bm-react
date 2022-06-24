@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="order">
+
+	<insert id="order">
+		<if test="user != null">
+			insert into order_member (
+				order_num
+		    ,user_id
+		    ,store_id
+		    ,delevery_address
+		    ,pay_method 
+		    ,used_point 
+		    ,total_price
+		    ,request 
+		    ,imp_uid 
+		    ,order_menu_json
+			) values (
+				#{order.orderNum}
+				,#{user.userId}
+				,#{order.storeId}
+				,#{order.address}
+				,#{order.payMethod}
+				,#{order.usedPoint}
+				,#{order.totalPrice}
+				,#{order.request}
+				,''			
+				,#{orderMenuJson}
+			)
+		</if>
+		
+		
+			
+		<if test="user == null">
+			insert into order_non_member (
+				order_num
+		    ,user_id
+		    ,store_id
+		    ,delevery_address
+		    ,pay_method 
+		    ,used_point 
+		    ,total_price
+		    ,request 
+		    ,imp_uid 
+		    ,order_menu_json
+			) values (
+				#{order.orderNum}
+				,#{user.guestId}
+				,#{order.storeId}
+				,#{order.address}
+				,#{order.payMethod}
+				,#{order.usedPoint}
+				,#{order.totalPrice}
+				,#{order.request}
+				,''			
+				,#{orderMenuJson}
+			)
+		</if>
+		
+		
+	
+	
+	</insert>
+
+
+	
+	
+	
+</mapper>

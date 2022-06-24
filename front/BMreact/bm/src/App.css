@@ -179,10 +179,10 @@ table {
 	box-sizing: border-box;
 }
 
-/* nav 바닥에 붙이기 */
 #root > div,
 #root main {
-	min-height: calc(100vh - 191px);
+	/* min-height: calc(100vh - 191px); */
+	padding-bottom: 150px;
 }
 
 

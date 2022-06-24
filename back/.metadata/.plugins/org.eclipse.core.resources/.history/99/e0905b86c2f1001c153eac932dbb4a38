@@ -1,0 +1,8 @@
+package com.baemin.common;
+
+public class CreateOrderNumber {
+	static String getOrderNumer() {
+		
+		return null;
+	}
+}

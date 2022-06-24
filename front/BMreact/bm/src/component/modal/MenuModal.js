@@ -8,11 +8,13 @@ import { StoreDetailContext } from './../../context';
 import { setLocalCart } from '../../common';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import { useParams } from 'react-router-dom';
 
 
 
 
 function MenuModal({selectMenu, close}) {
+  const {storeId} = useParams();
   const {storeDetail, cartList, setCartList, optionList} = useContext(StoreDetailContext); 
   
   const [loading, setLoading] = useState(true);
@@ -138,6 +140,7 @@ function MenuModal({selectMenu, close}) {
       return;
     }
     const data = {
+      storeId : storeId,
       menuName : selectMenu.name,
       menuPrice : selectMenu.price, 
       quantity : quantity,

@@ -4,15 +4,17 @@ import lombok.Data;
 
 @Data
 public class Order {
-	
-	private Cart[] cartList;
+	private String orderNum;
+	private long storeId;
 	private int usedPoint;
 	private int totalPrice;
 	
 	private String payMethod;
 	private String request;
 	private String address;
-	
-	private User user;
+	private Cart[] cartList;
+
+	// 로그인 중 아닐때 사용함
+	private String guestId;
 }
 

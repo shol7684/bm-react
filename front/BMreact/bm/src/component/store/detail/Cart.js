@@ -122,7 +122,7 @@ function Cart() {
       console.log("최소주문금액이 부족합니다");
       return;
     }
-    navigate(`/order/${storeDetail.storeId}`);
+    navigate(`/order`);
   } 
 
 

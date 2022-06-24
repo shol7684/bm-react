@@ -1,10 +1,11 @@
 nav {
    height: 80px;
    border-top:1px solid #ccc;
-   position: sticky;
+   position: fixed;
    bottom: 0;
-   z-index: 1;
+   z-index: 12;
    background: #fff;
+   width: 100%;
 }
 
 nav ul {

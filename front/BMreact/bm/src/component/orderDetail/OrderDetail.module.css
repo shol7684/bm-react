@@ -1,0 +1,73 @@
+.order_detail_page {
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.order_detail_page h1 {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.order_detail_page .order_status {
+  margin-bottom: 30px;
+}
+
+
+.order_detail_page .menu_list {
+  margin-bottom: 3%;
+}
+
+.order_detail_page .menu_list > li {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2%;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order_detail_page .menu_list > li > div:first-child {
+  flex: 1;
+}
+
+.order_detail_page .menu_price {
+  color: #999;
+}
+
+.order_detail_page .menu_price li {
+  list-style: disc;
+  margin-left: 2%;
+}
+
+
+.order_detail_page .price > div{ 
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.order_detail_page .order_price {
+  border-top: 1px solid #000;
+  font-size: 2rem;
+  padding-top: 2%;
+  margin-top: 2%;
+}
+
+.order_detail_page .payMethod {
+  font-size: 2rem;
+}
+
+.order_detail_page .user_info {
+  border-top: 1px solid #ddd;
+  margin-top: 3%;
+  padding: 1% 0 150px;
+  color: rgb(170, 146, 146);
+}
+
+
+
+@media (max-width: 1024px) {
+  .order_detail_page {
+    width: 95%;
+  }
+}

@@ -1,0 +1,17 @@
+package com.baemin.dao;
+
+import java.util.List;
+import java.util.Map;
+
+import com.baemin.dto.Order;
+import com.baemin.login.LoginDetails;
+
+public interface OrderDAO {
+
+	void order(Map<String, Object> map);
+
+	void memberOrder(Map<String, Object> map);
+
+	void nonMemberOrder(Map<String, Object> map);
+
+}

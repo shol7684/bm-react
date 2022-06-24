@@ -70,3 +70,15 @@ export const setLocalCart = (cart) =>{
 }
 
 
+// 비회원 id 만들기
+// export const getGuestId = ()=>{
+//    const gid = localStorage.getItem("gid");
+
+//    if(gid === null) {
+//       const newGid = `${+new Date()}_${Math.random().toString(36).substring(2,10)}`;
+//       localStorage.setItem("gid", newGid);
+//       return newGid;
+//    }
+
+//    return gid;
+// }

@@ -3,18 +3,19 @@ import style from './Order.module.css'
 import { MainContext, StoreDetailContext, UserContext} from './../../context';
 import { getLocalAddress, setLocalCart } from '../../common';
 import { useState, useRef } from 'react';
-import { getLocalCart } from './../../common';
+import { getLocalCart, getGuestId } from './../../common';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Address } from './../Address';
 import Swal from 'sweetalert2';
 import Empty from '../empty/Empty';
 import axios from 'axios';
+import Loading from '../loading/Loading';
 
 function Order() {
-  const {storeId} = useParams();
-
+  
   const context = useContext(StoreDetailContext);
   const {storeDetail, setStoreDetail, cartList, setCartList, setMenuList, setOptionList} = context;
+
 	const {user, setUser, address1, address2, setAddress1, setAddress2} = useContext(MainContext);
   const [addressDetail, setAddressDetail] = useState("");
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -29,10 +30,13 @@ function Order() {
   const navigate = useNavigate();
 
   useEffect(()=>{
+    let storeId;
+
     if(cartList.length === 0) {
       const cart = getLocalCart();
       if(cart !== null) {
         setCartList(cart);
+        storeId = cart[0].storeId;
       } else {
         return;
       }
@@ -47,33 +51,24 @@ function Order() {
       }
     }
 
-
+    // 새로고침해서 state 없어지면 다시 가져오기
     if(storeDetail === null) {
-      const data = {
-        storeId : 1,
-        storeName : "피나치공",
-        minDelevery : 1000,
-        deleveryTime : 30,
-        deleveryTip : 4500,
-      }
-
-      setStoreDetail(data);
-
       (async ()=>{
         const result = await axios.get(`/store/detail/${storeId}`);
         setStoreDetail(result.data.storeDetail);
         setMenuList(result.data.menuList);
         setOptionList(result.data.optionList);
       })();
-
     }
 
-
+    // 사용할수있는 포인트 복사
     if(user !== null) {
       setUserPoint(user.point);
+    } else {
+      isLogin();
     }
- 
   }, []);
+
 
   // 주소 api on/off
   const popupOpen = ()=>{
@@ -85,25 +80,23 @@ function Order() {
 	}
 
   // 로그인 할건지 묻기
-  if(user === null) {
-    const isLogin = (()=>{
-      Swal.fire({
-        confirmButtonText: "로그인",
-        showCancelButton: true,
-        cancelButtonText: "비회원으로 주문하기",
-        allowOutsideClick: false,
-      })
-      .then(({isConfirmed})=>{
-        if(isConfirmed === true) {
-          navigate("/login", {
-            state: {
-              redirect : window.location.pathname
-            }
-          });
-        }
-      })
-    })();
-  }
+  const isLogin = ()=>{
+    Swal.fire({
+      confirmButtonText: "로그인",
+      showCancelButton: true,
+      cancelButtonText: "비회원으로 주문하기",
+      allowOutsideClick: false,
+    })
+    .then(({isConfirmed})=>{
+      if(isConfirmed === true) {
+        navigate("/login", {
+          state: {
+            redirect : window.location.pathname
+          }
+        });
+      }
+    })
+  };
 
 
   // 장바구니 가격 합계 
@@ -122,9 +115,7 @@ function Order() {
     })
 
     return (
-      <ul>
-        {list}
-      </ul>
+      <ul>{list}</ul>
     )
   }
 
@@ -278,27 +269,40 @@ function Order() {
 
   // 뒤로가기
   const back = ()=>{
-    navigate(`/store/detail/${storeId}`);
+    navigate(`/store/detail/${cartList[0].storeId}`);
   }
 
   // 주문하기
   const order = async ()=>{
     const data = {
       cartList : cartList,
+      storeId : cartList[0].storeId,
       usedPoint : usedPoint,
       totalPrice : calcCartTotal(),
       request : request,
       payMethod : payMethod,
       address : `${address2} ${addressDetail}`,
-      user : user
     };
 
-    console.log(user); 
     try {
       const result = await axios.post("/order", data);
       console.log(result);
 
+      // Swal.fire({
+      //   html: "주문이 완료되었습니다",
+      //   confirmButtonText: "확인",
+      //   allowOutsideClick: false,
+      // })
+      // .then(()=>{
+      //   localStorage.removeItem("cart");
+      //   navigate("/orderList",{
+      //     state : result.data
+      //   })
+      // })
+
+
     } catch(e) {
+      setUser(null);
       alert(e.response.data);
     }
      
@@ -306,113 +310,122 @@ function Order() {
 
 
 
-  return (
-    <>
-    {cartList.length === 0 && 
+
+  
+  if(cartList.length === 0) {
+    return (
       <Empty img="/img/empty4.png"></Empty>
-    }   
+    )
+  }
 
-    {cartList.length > 0 && 
+
+  if(storeDetail === null) {
+    return (
+      <Loading></Loading>
+    )
+  }
+
+
+
+  return (
     <div className={style.order_page}>
-        <h1>주문하기</h1>
+      <h1>주문하기</h1>
 
-        <div className={style.store_name}>
-          <h2>{storeDetail.storeName}</h2>
-          <button onClick={cartDeleteAll}>전체삭제</button>
-        </div>
+      <div className={style.store_name}>
+        <h2>{storeDetail.storeName}</h2>
+        <button onClick={cartDeleteAll}>전체삭제</button>
+      </div>
 
+      <div>
+        <h2>주문정보</h2>
+        <CartList></CartList>
+      </div>
+
+      <div className={style.delevery_info}>
+        <h2>배달정보</h2>
         <div>
-          <h2>주문정보</h2>
-          <CartList></CartList>
-        </div>
-
-        <div className={style.delevery_info}>
-          <h2>배달정보</h2>
-          <div>
-            <span>주소 : {address2}</span>
-            <button className={style.change_address} onClick={popupOpen} >주소변경</button>
-            {isPopupOpen === true && 
-               <Address popupClose={popupClose}></Address>
-            }
-          </div>
-          <div>상세주소</div>
-          <input className='input_base' onBlur={addressDetailHandler} />
-          <div>전화번호</div>
-          {user === null ?
-            <input type="number" pattern="\d*" className='input_base' /> :
-            <input type="number" value={user.phone} readOnly pattern="\d*" className='input_base' />
+          <span>주소 : {address2}</span>
+          <button className={style.change_address} onClick={popupOpen} >주소변경</button>
+          {isPopupOpen === true && 
+              <Address popupClose={popupClose}></Address>
           }
         </div>
+        <div>상세주소</div>
+        <input className='input_base' onBlur={addressDetailHandler} />
+        <div>전화번호</div>
+        {user ?
+          <input type="number" value={user.phone} readOnly pattern="\d*" className='input_base' /> :
+          <input type="number" value='' pattern="\d*" className='input_base' onChange={()=>{console.log(123);}} /> 
+        }
+      </div>
 
-        <div className={style.request}>
-          <div>요청사항</div>
-          <textarea onBlur={requestHandler}></textarea>
-        </div>
+      <div className={style.request}>
+        <div>요청사항</div>
+        <textarea onBlur={requestHandler}></textarea>
+      </div>
 
 
-        <div className={style.pay_method}>
-          <h2>결제수단</h2>
-          <label>
-            <input type="radio" checked={payMethod === "신용카드"} 
-              name="payMethod" readOnly 
-              onChange={payMethodChange} value="신용카드" />
-              신용카드
-          </label>
-          <label>
-          <input type="radio" checked={payMethod === "현장에서 결제"} 
+      <div className={style.pay_method}>
+        <h2>결제수단</h2>
+        <label>
+          <input type="radio" checked={payMethod === "신용카드"} 
             name="payMethod" readOnly 
-            onChange={payMethodChange} value="현장에서 결제" />
-            현장에서 결제
-          </label>
-        </div>
+            onChange={payMethodChange} value="신용카드" />
+            신용카드
+        </label>
+        <label>
+        <input type="radio" checked={payMethod === "현장에서 결제"} 
+          name="payMethod" readOnly 
+          onChange={payMethodChange} value="현장에서 결제" />
+          현장에서 결제
+        </label>
+      </div>
 
 
-        <div className={style.point}>
-          <h2>포인트</h2>
-          <div className={style.use_point_wrap}>
-            <div>
-              {user !== null && 
-                <>
-                <span>{user.point.toLocaleString()}원 사용가능</span>
-                <button className={style.show_input} onClick={showPointInput}>
-                  <i className="fas fa-chevron-down"></i>
-                </button> 
-                </>
-              }
-              {user === null && 
-                <span style={{color : "#ddd"}}>로그인 후 사용가능합니다</span>
-              }
-            </div>
-
-            <div ref={pointInput} className={style.point_input}>
-              <input type="number" pattern="/d" placeholder='사용 할 포인트' ref={point} />
-              <button className={style.use_point} onClick={usePoint} >사용하기</button>
-            </div>
-
-          </div>
-        </div>
-
-        <div>
-          <div>주문금액 : {calcCartTotal(cartList).toLocaleString()}원</div>
-          {Object.keys(storeDetail).length !== 0  && 
-            <>
-            <div>배달팁 {storeDetail.deleveryTip.toLocaleString()}원</div>
-            {usedPoint !== 0 && 
-              <div>포인트 사용 -{usedPoint.toLocaleString()}원</div>
+      <div className={style.point}>
+        <h2>포인트</h2>
+        <div className={style.use_point_wrap}>
+          <div>
+            {user !== null && 
+              <>
+              <span>{user.point.toLocaleString()}원 사용가능</span>
+              <button className={style.show_input} onClick={showPointInput}>
+                <i className="fas fa-chevron-down"></i>
+              </button> 
+              </>
             }
+            {user === null && 
+              <span style={{color : "#ddd"}}>로그인 후 사용가능합니다</span>
+            }
+          </div>
 
-            <div>{(calcCartTotal() + storeDetail.deleveryTip - usedPoint).toLocaleString() }원 결제하기</div> 
-            </>
+          <div ref={pointInput} className={style.point_input}>
+            <input type="number" pattern="/d" placeholder='사용 할 포인트' ref={point} />
+            <button className={style.use_point} onClick={usePoint} >사용하기</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div>
+        <div>주문금액 : {calcCartTotal(cartList).toLocaleString()}원</div>
+        {Object.keys(storeDetail).length !== 0  && 
+          <>
+          <div>배달팁 {storeDetail.deleveryTip.toLocaleString()}원</div>
+          {usedPoint !== 0 && 
+            <div>포인트 사용 -{usedPoint.toLocaleString()}원</div>
           }
-        </div>
 
-        <div className={style.btn_wrap}>
-          <button className={style.order_btn} onClick={back}>뒤로가기</button>
-          <button className={style.order_btn} onClick={order}>주문하기</button>
-        </div>
+          <div>{(calcCartTotal() + storeDetail.deleveryTip - usedPoint).toLocaleString() }원 결제하기</div> 
+          </>
+        }
+      </div>
+
+      <div className={style.btn_wrap}>
+        <button className={style.order_btn} onClick={back}>뒤로가기</button>
+        <button className={style.order_btn} onClick={order}>주문하기</button>
+      </div>
     </div>
-    }
-    </>
   )
 }
 

@@ -1,0 +1,85 @@
+package com.baemin.service;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.baemin.common.CreateOrderNumber;
+import com.baemin.dao.OrderDAO;
+import com.baemin.dto.Cart;
+import com.baemin.dto.Order;
+import com.baemin.dto.User;
+import com.baemin.login.LoginDetails;
+import com.google.gson.Gson;
+
+@Service
+public class OrderServiceImp implements OrderService {
+
+	@Autowired
+	private OrderDAO orderDAO;
+	
+	@Override
+	@Transactional
+	public ResponseEntity<?> order(Order order, LoginDetails user) {
+		System.out.println("사용 포인트 : " + order.getUsedPoint());
+		
+		User userInfo = user != null ? user.getUser() : null;
+		
+		
+		// 주문정보에 유저정보가 있을때		
+		if(order.getUser() != null) {
+			// 세션 유저정보와 state 유저정보가 다르다면
+			if(userInfo == null || !order.getUser().equals(userInfo)) {
+				return new ResponseEntity<>("회원정보가 변경되었습니다. 다시 로그인 해주세요.", HttpStatus.BAD_REQUEST);
+			}
+		}
+			
+		// 회원 유저
+		if(userInfo != null) {
+			// 사용한 포인트가 회원 포인트보다 많을때 
+			System.out.println("사용 포인트 : " + order.getUsedPoint());
+			if(order.getUsedPoint() > userInfo.getPoint()) {
+				return new ResponseEntity<>("포인트 사용 에러", HttpStatus.BAD_REQUEST);
+			}
+			
+		}
+		order.setOrderNum(CreateOrderNumber.getOrderNumer());
+		
+		Gson gson = new Gson();
+		
+		String orderMenuJson = gson.toJson(order.getCartList());
+		
+		// 로그인 상태에 사용 포인트가 있다면 포인트 감소
+		
+		// 로그인 상태 시 포인트 적립
+		
+		
+		Map<String, Object> map = new HashMap<>();
+		
+		
+		Object userId = userInfo == null ? 
+				order.getGuestId() : userInfo.getUserId();
+		
+		boolean member = userInfo != null;
+				
+		map.put("userId", userId);
+		map.put("member", member);
+		map.put("order", order);
+		map.put("orderMenuJson", orderMenuJson);
+		
+		orderDAO.order(map);
+		
+		return new ResponseEntity<>(HttpStatus.OK);
+	}
+
+
+
+}

@@ -4,30 +4,22 @@ import { useParams, Link } from 'react-router-dom';
 import style from './Store.module.css';
 import { categoryList } from '../Main/Category';
 import StoreList from './StoreList';
+import { useState } from 'react';
+import Empty from '../empty/Empty';
+import Loading from '../loading/Loading';
 
 function Store() {
   const { category, address } = useParams();
-
+  const [storeList, setStoreList] = useState(null);
 
   useEffect(() => {
-    // const get = async () => {
-    //   // const result = await axios.get("/api/storeList/"+ address);
-    //   // console.log(result);
-    //   console.log("가게목록");
-    //   console.log(category , address);
-    // }
-    // get();
+    (async () => {
+      const result = await axios.get(`/storeList/${category}/${address}`);
+      setStoreList(result.data);
+    })();
 
-  }, []);
+  }, [category]);
 
-
-
-  // const get = async () => {
-  //   const result = await axios.get("/api/storeList/" + address);
-  //   console.log(result);
-  //   console.log("가게목록");
-
-  // }
 
   const Category = () => {
     const c = Number(category);
@@ -67,14 +59,27 @@ function Store() {
     )
   }
  
+
+
+  if(storeList === null) {
+    return (
+      <div className={style.store}>
+        <Category></Category>
+        <Option></Option>
+        <Loading></Loading>
+      </div>
+    )
+  }
+
  
   return (
     <div className={style.store}>
       <Category></Category>
       <Option></Option>
-
-      <StoreList></StoreList>
-      
+      {storeList.length === 0 ?
+        <Empty img="/img/empty2.png"></Empty> :
+        <StoreList storeList={storeList}></StoreList>
+      }
     </div>
   )
 }
