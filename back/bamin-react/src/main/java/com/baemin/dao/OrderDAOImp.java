@@ -26,13 +26,19 @@ public class OrderDAOImp implements OrderDAO {
 
 
 	@Override
-	public List<OrderDetail> getOrderList(MemberCheckResult result) {
-		return sql.selectList("order.orderList", result);
+	public List<OrderDetail> getOrderList(Map<String, Object> map) {
+		return sql.selectList("order.orderList", map);
 	}
 	
 	@Override
 	public OrderDetail getOrderDetail(Map<String, Object> map) {
 		return sql.selectOne("order.orderDetail", map);
+	}
+
+
+	@Override
+	public int getOrderListCount(MemberCheckResult result) {
+		return sql.selectOne("order.orderListCount", result);
 	}
 
 	

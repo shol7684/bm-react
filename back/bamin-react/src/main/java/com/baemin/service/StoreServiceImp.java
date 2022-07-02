@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.baemin.dao.StoreDAO;
 import com.baemin.dto.Menu;
 import com.baemin.dto.MenuOption;
+import com.baemin.dto.Page;
 import com.baemin.dto.Store;
 
 @Service
@@ -20,12 +21,19 @@ public class StoreServiceImp implements StoreService {
 	private StoreDAO storeDAO;
 
 	@Override
-	public List<Store> getStoreList(int category, int address) {
+	public Map<String, Object> getStoreList(int category, int address, String sort, Page page) {
 		Map<String, Object> map = new HashMap<>();
 		map.put("category", category);
 		map.put("address", address);
+		map.put("sort", sort);
+		map.put("page", page);
 		
-		return storeDAO.getStoreList(map);
+		int count = storeDAO.getStoreCount();
+		page.setTotalPage(count, true);
+		List<Store> storeList = storeDAO.getStoreList(map);
+		map.put("storeList", storeList);
+		
+		return map;
 	}
 
 	
@@ -45,6 +53,25 @@ public class StoreServiceImp implements StoreService {
 		map.put("storeDetail", storeDetail);
 		map.put("menuList", menuList);
 		map.put("optionList", optionList);
+		
+		return map;
+	}
+
+
+
+	@Override
+	public Map<String, Object> storeSearch(int address, String searchKeyword, Page page) {
+		Map<String, Object> map = new HashMap<>();
+				
+		map.put("address", address);
+		map.put("searchKeyword", searchKeyword);
+		map.put("page", page);
+		
+		int count = storeDAO.getSearchStoreCount(searchKeyword);
+		page.setTotalPage(count, true);
+		
+		 List<Store> storeList = storeDAO.storeSearch(map);
+		 map.put("storeList", storeList);
 		
 		return map;
 	}

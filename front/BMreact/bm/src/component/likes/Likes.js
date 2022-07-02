@@ -3,6 +3,7 @@ import style from './Likes.module.css'
 import Empty from './../empty/Empty';
 import StoreList from '../store/StoreList';
 
+
 function Likes() {
   const likesJson = localStorage.getItem("likes");
 

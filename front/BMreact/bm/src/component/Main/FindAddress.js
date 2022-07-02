@@ -8,20 +8,9 @@ import { getLocalAddress } from '../../common';
 
 
 export function FindAddress() {
-   const {address1, address2, setAddress1, setAddress2} = useContext(MainContext);
+   const {address1, address2} = useContext(MainContext);
 
    const [isPopupOpen, setIsPopupOpen] = useState(false);
-
-   useEffect(()=>{
-      const address = getLocalAddress();
-      if(address !== null) {
-         const {address1, address2} = address;
-         setAddress1(address1);
-         setAddress2(address2);
-         console.log("주소 세팅");
-      }
-   }, [])
-
 
    const popupOpen = ()=>{
 		setIsPopupOpen(true);

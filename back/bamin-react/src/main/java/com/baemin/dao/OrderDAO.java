@@ -15,10 +15,12 @@ public interface OrderDAO {
 	void order(Map<String, Object> map);
 
 	// 주문목록
-	List<OrderDetail> getOrderList(MemberCheckResult result);
+	List<OrderDetail> getOrderList(Map<String, Object> map);
 
 	// 주문 상세
 	OrderDetail getOrderDetail(Map<String, Object> map);
+
+	int getOrderListCount(MemberCheckResult result);
 
 	
 

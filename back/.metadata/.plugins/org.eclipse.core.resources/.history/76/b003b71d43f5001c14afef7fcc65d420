@@ -1,0 +1,54 @@
+package com.baemin.dto;
+
+import lombok.Data;
+
+@Data
+public class Page {
+	private int page;
+	
+	private int pageSize;
+	private int firstList;
+	private int lastList;
+	
+	private int navigationSize;
+	private int navigationStart;
+	private int navigationEnd;
+	
+	private boolean prevPage;
+	private boolean nextPage;
+
+	public Page(int page) {
+		this.pageSize = 5;
+		this.page = page;
+		this.firstList = (page - 1) * pageSize;
+		this.lastList = page * pageSize;
+		
+		this.navigationSize = 5;
+		this.navigationStart = page - (page-1) % navigationSize;
+		this.navigationEnd = navigationStart + navigationSize -1;
+//		System.out.println("page : " + page + " page size : " + pageSize);
+//		System.out.println(page - (page-1) % pageSize);
+		
+		if(page <= pageSize) {
+			this.prevPage = false;
+		}
+	}
+	
+	
+	public void setTotalPage(int total) {
+//		12 => 3vpdlwl
+		int navigationEnd = (int) Math.ceil(total / (double) pageSize);
+		System.out.println(navigationEnd);
+		
+		this.navigationEnd = navigationStart + navigationEnd -1;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

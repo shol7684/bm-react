@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import style from "./OrderList.module.css"
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useParams } from 'react-router-dom'
 import { useState } from 'react';
 import Loading from './../loading/Loading';
 import Empty from './../empty/Empty';
@@ -13,22 +13,29 @@ function OrderList() {
 
   const {state} = useLocation();
   const [orderList, setOrderList] = useState(null);
+  const {pageNum=1} = useParams();
+  const [page, setPage] = useState();
 
+  
   useEffect(()=>{
+    console.log(pageNum);
     if(state === null) {
       // 주문목록 불러오기
       (async ()=>{
-        const {data} = await axios.get(`/orderList`);
+        const {data} = await axios.get(`/orderList?page=${pageNum}`);
+        const {orderList, page} = data;
 
-        data.forEach((v, i) => {
-          data[i].orderMenu = JSON.parse(data[i].orderMenuJson);
+        orderList.forEach((v, i) => {
+          orderList[i].orderMenu = JSON.parse(orderList[i].orderMenuJson);
         });
 
-        setOrderList(data);
+        setOrderList(orderList);
+        setPage(page);
       })();
       return;
     }
-  },[])
+
+  },[pageNum])
 
 
   const List = ()=>{
@@ -100,7 +107,7 @@ function OrderList() {
       <h1>주문 내역</h1>
       <List></List>
 
-      <PageNavigation size="5"></PageNavigation>
+      <PageNavigation page={page}></PageNavigation>
     </div>
   )
 }

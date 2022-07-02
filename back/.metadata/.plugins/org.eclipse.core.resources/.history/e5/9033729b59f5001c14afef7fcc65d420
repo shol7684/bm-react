@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="store">
+
+	<select id="storeList" resultType="Store">
+		<![CDATA[
+		with temp as (
+			select 	time_format(s.opening_time, '%H:%i') open,
+							time_format(s.closing_time, '%H:%i') close,
+							time_format(now(), '%H:%i') now,
+							s.*
+    	from		store s
+   		where 	category = #{category}
+			and			store_address1 like '${address}%'  
+		)
+		select	case when open < close
+						then (
+								case 	when 
+								now 	between open and close
+								then 	true else false
+								end
+						)
+						else (
+								case when
+								open < now or now < close
+						    then true else false end
+						)   
+						end is_business_time
+						,temp.store_id
+						,temp.category
+						,temp.store_name
+						,temp.store_address1
+						,temp.store_address2
+						,temp.store_address3
+						,temp.store_phone
+						,temp.store_img
+						,temp.opening_time
+						,temp.closing_time
+						,temp.min_delevery
+						,temp.delevery_time
+						,temp.delevery_tip
+						,temp.store_introduction
+						,temp.is_open
+    from	 temp
+		]]>
+	</select>
+	
+
+	<select id="storeDetail" resultType="Store">
+		<![CDATA[
+		with temp as (
+			select 	time_format(s.opening_time, '%H:%i') open,
+							time_format(s.closing_time, '%H:%i') close,
+							time_format(now(), '%H:%i') now,
+							s.*
+    	from		store s
+   		where 	store_id = #{storeId}
+		)
+		select	case when open < close
+						then (
+								case 	when 
+								now 	between open and close
+								then 	true else false
+								end
+						)
+						else (
+								case when
+								open < now or now < close
+						    then true else false end
+						)   
+						end is_business_time
+						,temp.store_id
+						,temp.category
+						,temp.store_name
+						,temp.store_address1
+						,temp.store_address2
+						,temp.store_address3
+						,temp.store_phone
+						,temp.store_img
+						,temp.opening_time
+						,temp.closing_time
+						,temp.min_delevery
+						,temp.delevery_time
+						,temp.delevery_tip
+						,temp.store_introduction
+						,temp.is_open
+    from	 temp
+		]]>
+	</select>
+	
+	
+	
+	<select id="menuList" resultType="Menu">
+		select		m.menu_id
+							,m.name
+			        ,m.price
+			        ,m.introduction
+			        ,m.img
+			        ,group_concat(mo.option_id order by mo.option_id) 'optionIds'
+		from			menu m
+		left join	menu_option mo
+		on				m.menu_id = mo.menu_id
+		where 		store_id = #{storeId}
+		group by	menu_id
+	</select>
+	
+	
+	<select id="optionList" resultType="MenuOption">
+		select	* from `option` where store_id = #{storeId}		
+	</select>
+	
+	
+	
+	
+	<select id="storeSearch" resultType="Store">
+		<![CDATA[
+		with temp as (
+			select 	time_format(s.opening_time, '%H:%i') open,
+							time_format(s.closing_time, '%H:%i') close,
+							time_format(now(), '%H:%i') now,
+							s.*
+    	from		store s
+   		where 	store_address1 like '${address}%'  
+   		and			store_name like '%${searchKeyword}%'
+		),
+		temp2 as (
+			select  case when open < close
+							then (
+									case 	when 
+									now 	between open and close
+									then 	true else false end
+							)
+							else (
+									case when
+									open < now or now < close
+							    then true else false end
+							)   
+							end is_business_time
+							,store_id
+							,category
+							,store_name
+							,store_address1
+							,store_address2
+							,store_address3
+							,store_phone
+							,store_img
+							,opening_time
+							,closing_time
+							,min_delevery
+							,delevery_time
+							,delevery_tip
+							,store_introduction
+							,is_open
+	    from	 temp
+		)
+		select * from (
+			select * from temp2 where is_business_time = true
+				union all
+			select * from temp2 where is_business_time = false
+		) result 
+		limit #{page.firstList}, #{page.pageSize}
+		]]>
+	</select>
+	
+	
+	
+	
+	
+	
+</mapper>

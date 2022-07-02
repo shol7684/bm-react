@@ -42,14 +42,14 @@ function Order() {
       }
     }
 
-    if(!address1 || !address2) {
-      const localAddress = getLocalAddress();
-      if(localAddress !== null) {
-         const {address1, address2} = localAddress;
-         setAddress1(address1);
-         setAddress2(address2);
-      }
-    }
+    // if(!address1 || !address2) {
+    //   const localAddress = getLocalAddress();
+    //   if(localAddress !== null) {
+    //      const {address1, address2} = localAddress;
+    //      setAddress1(address1);
+    //      setAddress2(address2);
+    //   }
+    // }
 
     // 새로고침해서 state 없어지면 다시 가져오기
     if(storeDetail === null) {

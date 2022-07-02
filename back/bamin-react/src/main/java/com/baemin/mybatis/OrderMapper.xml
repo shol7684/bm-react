@@ -43,16 +43,32 @@
 							,s.delevery_tip
 	            ,s.store_img
 	   
+   <if test="result.member == true">
+		from 			order_member o
+   </if>         
+   <if test="result.member == false">
+  	 from 			order_non_member o
+   </if>         
+		left join	store s	
+		on				o.store_id = s.store_id
+		where			user_id = #{result.userId}
+		limit #{page.firstList}, #{page.pageSize}
+	</select>
+	
+	
+	
+	<select id="orderListCount" resultType="int">
+		select 		count(*)
+	   
    <if test="member == true">
 		from 			order_member o
    </if>         
    <if test="member == false">
   	 from 			order_non_member o
    </if>         
-		left join	store s	
-		on				o.store_id = s.store_id
-		where			user_id = #{userId}
 	</select>
+	
+	
 	
 	
 	

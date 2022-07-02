@@ -11,14 +11,25 @@ import Loading from '../loading/Loading';
 function Store() {
   const { category, address } = useParams();
   const [storeList, setStoreList] = useState(null);
+  const [sort, setSort] = useState('기본순');
 
   useEffect(() => {
-    (async () => {
-      const result = await axios.get(`/storeList/${category}/${address}`);
-      setStoreList(result.data);
-    })();
+    getStoreList();
 
-  }, [category]);
+  }, [category, sort]);
+
+
+  const getStoreList = async ()=>{
+    const params = {
+      category : category,
+      address : address,
+      sort : sort,
+    }
+    // const {data} = await axios.get(`/storeList/${category}/${address}`);
+    const {data} = await axios.get(`/storeList`, {params});
+    console.log(data);
+    setStoreList(data.storeList);
+  }
 
 
   const Category = () => {
@@ -44,16 +55,33 @@ function Store() {
     )
   }
 
+
+  
+
   const Option = ()=>{
+    const options = ['기본순', '배달 빠른 순', '배달팁 낮은 순', '별점 높은 순',
+          '리뷰 많은 순', '최수 주문 금액 순'];
+
+
+    const list = options.map((v, i)=>{
+      return (
+        <li key={i} onClick={()=>setSort(v)}
+          className={v === sort ? style.active : ''}>{v}</li>
+      )
+      
+    })
+
+
     return (
       <div className={style.option}>
         <ul>
-          <li data-sort="기본순" className={style.active}>기본순</li>
+          {list}
+          {/* <li data-sort="기본순" className={style.active}>기본순</li>
           <li data-sort="배달 빠른 순">배달 빠른 순</li>
           <li data-sort="배달팁 낮은 순">배달팁 낮은 순</li>
           <li data-sort="별점 높은 순">별점 높은 순</li>
           <li data-sort="리뷰 많은 순">리뷰 많은 순</li>
-          <li data-sort="최소 주문 금액 순">최소 주문 금액 순</li>
+          <li data-sort="최소 주문 금액 순">최소 주문 금액 순</li> */}
         </ul> 
     </div>
     )
@@ -74,12 +102,17 @@ function Store() {
  
   return (
     <div className={style.store}>
-      <Category></Category>
-      <Option></Option>
+      <section className={style.section1}>
+        <Category></Category>
+        <Option></Option>
+      </section>
+
+      <section className={style.section2}>
       {storeList.length === 0 ?
         <Empty img="/img/empty2.png"></Empty> :
         <StoreList storeList={storeList}></StoreList>
       }
+      </section>
     </div>
   )
 }

@@ -16,5 +16,11 @@ public interface StoreDAO {
 	List<Menu> getMenuList(long storeId);
 
 	List<MenuOption> getOptionList(long storeId);
+
+	List<Store> storeSearch(Map<String, Object> map);
+
+	int getStoreCount();
+	
+	int getSearchStoreCount(String searchKeyword);
 	
 }

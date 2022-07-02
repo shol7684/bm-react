@@ -1,4 +1,8 @@
 .store {
+ 
+}
+
+.section1 {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -65,6 +69,7 @@ color: #ddd;
   display: inline;
   padding: 10px 20px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .option li.active {

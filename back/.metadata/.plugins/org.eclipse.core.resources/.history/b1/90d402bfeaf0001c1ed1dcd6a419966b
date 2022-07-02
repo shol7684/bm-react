@@ -1,7 +1,0 @@
-package com.baemin.dao;
-
-public interface OrderDAO {
-
-	void order();
-
-}

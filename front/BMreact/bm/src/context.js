@@ -12,6 +12,14 @@ export const MainProvider = ({ children }) => {
 
   const [loading, setLoading] = useState(true);
 
+  const history = {
+    searchHistory : {
+      keyword : '',
+      storeList : [],
+      scroll : 0,
+    }
+  };
+
   const value = {
     address1 : address1,
     address2 : address2,
@@ -21,6 +29,7 @@ export const MainProvider = ({ children }) => {
     setUser : setUser,
     loading : loading,
     setLoading : setLoading,
+    history : history
   };
 
   return (
@@ -62,30 +71,49 @@ export const StoreDetailProvider = ({ children }) => {
 
 
 
-export const UserContext = createContext();
+// export const UserContext = createContext();
 
-export const UserProvider = ({ children }) => {
+// export const UserProvider = ({ children }) => {
 
-  const [user, setUser] = useState(
-  //   {
-  //   userId : 1,
-  //   username : "admin",
-  //   nickname : "sumin",
-  //   phone: "01012345678",
-  //   point : 2000,
-  // }
-  null
-  );  
+//   const [user, setUser] = useState(
+//   //   {
+//   //   userId : 1,
+//   //   username : "admin",
+//   //   nickname : "sumin",
+//   //   phone: "01012345678",
+//   //   point : 2000,
+//   // }
+//   null
+//   );  
 
+
+//   const value = {
+//     user : user,
+//     setUser : setUser,
+//   };
+
+//   return (
+//     <UserContext.Provider value={value}>
+//       {children}
+//     </UserContext.Provider>
+//   );
+// };
+
+
+export const SearchContext = createContext();
+
+export const SearchProvider = ({ children }) => {
+
+  const [storeList, setStoreList] = useState(null);  
 
   const value = {
-    user : user,
-    setUser : setUser,
+    storeList : storeList,
+    setStoreList : setStoreList,
   };
 
   return (
-    <UserContext.Provider value={value}>
+    <SearchContext.Provider value={value}>
       {children}
-    </UserContext.Provider>
+    </SearchContext.Provider>
   );
 };

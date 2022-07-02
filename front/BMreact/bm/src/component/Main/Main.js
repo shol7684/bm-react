@@ -12,6 +12,7 @@ export function Main() {
   useEffect(() => {
     console.log("메인 페이지");
     setLoading(false);
+    window.scrollTo(0,0);
   }, []);
 
   return (

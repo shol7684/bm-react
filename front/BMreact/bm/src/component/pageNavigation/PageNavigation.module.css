@@ -14,6 +14,10 @@
   line-height: 35px;
 }
 
+.page_navigation li a {
+  display: block;
+}
+
 .page_navigation li:last-child {
   border-right: 1px solid;
 }

@@ -11,19 +11,54 @@ import java.util.Optional;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
 
 import com.baemin.dto.MenuOption;
+import com.baemin.dto.Store;
 import com.baemin.dto.User;
 import com.google.gson.Gson;
 
 import lombok.Data;
 
-//@SpringBootTest
+@SpringBootTest
 public class Test1 {
 	
 	@Autowired
 	private SqlSession sql;
+	
+	
+	@Test
+	public void test5() {
+		Store s = new Store();
+		s.setCategory(100);
+		s.setStoreName("테스트19");
+		s.setStoreAddress1(31099);
+		s.setStoreAddress2("두정동 1313442");
+		s.setStoreAddress3("");
+		s.setStorePhone("010-1111-2222");
+		s.setStoreImg("");
+		s.setOpeningTime("01:30");
+		s.setClosingTime("23:50");
+		s.setMinDelevery(2000);
+		s.setDeleveryTime(50);
+		s.setDeleveryTip(5000);
+		s.setStoreIntroduction("테스트");
+		
+		
+		
+		for(int i=151;i<350;i++) {
+			String name = "테스트";
+			s.setStoreName(name + i);
+			
+//			System.out.println(s.getStoreName());
+		sql.insert("store.testInsert", s);
+		}
+		
+		
+		System.out.println();
+	}
+	
 	
 //	@Test
 	public void test1() throws IllegalArgumentException, IllegalAccessException {
@@ -106,7 +141,7 @@ public class Test1 {
 	}
 	
 	
-	@Test
+//	@Test
 	public void test4() {
 		String s = null;
 		

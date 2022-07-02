@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { MainContext, MainProvider } from './context';
 import Loading from './component/loading/Loading';
+import ScrollTop from './ScrollTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

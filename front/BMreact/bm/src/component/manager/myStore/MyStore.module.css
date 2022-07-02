@@ -1,0 +1,25 @@
+.my_store {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.my_store h1 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.store_list {
+
+}
+
+.store_list li {
+  border: 1px solid #ddd;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link_wrap {
+  display: flex;
+  flex-direction: column;
+}

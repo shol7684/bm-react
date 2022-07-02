@@ -19,6 +19,7 @@ import com.baemin.dao.OrderDAO;
 import com.baemin.dto.MemberCheckResult;
 import com.baemin.dto.Order;
 import com.baemin.dto.OrderDetail;
+import com.baemin.dto.Page;
 import com.baemin.dto.User;
 import com.google.gson.Gson;
 
@@ -66,14 +67,25 @@ public class OrderServiceImp implements OrderService {
 		
 		orderDAO.order(map);
 		
-		List<OrderDetail> orderList = getOrderList(result);
+		Map<String, Object> orderList = getOrderList(new Page(1), result);
 			
 		return new ResponseEntity<>(orderList, HttpStatus.OK);
 		
 	}
 		
-	public List<OrderDetail> getOrderList(MemberCheckResult result) {
-		return orderDAO.getOrderList(result);
+	public Map<String, Object> getOrderList(Page page, MemberCheckResult result) {
+		Map<String, Object> map = new HashMap<>();
+		int count = orderDAO.getOrderListCount(result);
+		page.setTotalPage(count, false);
+		
+		map.put("page", page);
+		map.put("result", result);
+		System.out.println(page);
+		List<OrderDetail> orderList = orderDAO.getOrderList(map);
+		
+		map.put("orderList", orderList);
+		
+		return map;
 	}
 
 	

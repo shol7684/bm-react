@@ -1,5 +1,5 @@
 import { useEffect, useState, useContext, useLayoutEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import { Header } from './component/layout/Header';
 import './App.css';
 import { Nav } from './component/layout/Nav';
@@ -11,7 +11,7 @@ import { Layout } from './component/layout/Layout';
 import { Main } from './component/Main/Main';
 import Store from './component/store/Store';
 import StoreDetail from './component/store/detail/StoreDetail';
-import { MainProvider, StoreDetailProvider, MainContext } from './context';
+import { MainProvider, StoreDetailProvider, MainContext, SearchProvider } from './context';
 import Order from './component/order/Order';
 import OrderList from './component/orderList/OrderList';
 import Likes from './component/likes/Likes';
@@ -20,16 +20,27 @@ import axios from 'axios';
 import OrderDetail from './component/orderDetail/OrderDetail';
 import 'moment/locale/ko';
 import Search from './component/search/Search';
+import { getLocalAddress } from './common';
+import ScrollTop from './ScrollTop';
+import MyStore from './component/manager/myStore/MyStore';
+import Auth from './component/Auth/Auth';
 
 
  
 
 function App() {
   const context = useContext(MainContext);
-  const {user, setUser, loading, setLoading} = context;
-
+  const {user, setUser, loading, setLoading, address1, address2, setAddress1, setAddress2} = context;
   useLayoutEffect( ()=>{
     console.log("app 완료");
+ 
+    const address = getLocalAddress();
+      if(address !== null) {
+         const {address1, address2} = address;
+         setAddress1(address1);
+         setAddress2(address2);
+         console.log("주소 세팅");
+      }
 
     const loginInfo = (async ()=>{
       const result = await axios.get("/loginInfo");
@@ -51,6 +62,7 @@ function App() {
   return (
     <>
       <BrowserRouter> 
+        <ScrollTop />
         <Routes> 
           <Route element={ <Layout />}>
 
@@ -89,7 +101,10 @@ function App() {
 
               {/* 가게검색 */}
               <Route path="/search" element={ 
-                <Search></Search> }>
+                <SearchProvider>
+                <Search></Search>
+                </SearchProvider> 
+                }>
               </Route>
 
             </Route>
@@ -114,6 +129,13 @@ function App() {
             </Route>
 
             
+            {/* 운영중인가게 */}
+            <Route path="/manager/myStore" element={
+              <Auth>
+                <MyStore />
+              </Auth>
+            } >
+            </Route>
 
           </Route>
 

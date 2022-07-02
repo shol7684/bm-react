@@ -1,6 +1,19 @@
 .search_page {
+ 
+}
+
+.search_page .section1 {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding: 1px 0;
+  z-index: 13;
+}
+
+.search_page .section2 {
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
 
 .notice {
@@ -9,7 +22,7 @@
 }
 
 
-.search_list {
+.search_list_wrap {
   border-bottom: 1px solid #ddd;
   white-space: nowrap;
   overflow-x: auto;
@@ -19,9 +32,32 @@
   margin: 0 auto;
 }
 
-.search_list li {
+.search_list_wrap::-webkit-scrollbar {
+  overflow: hidden;
+  height: 0px;
+}
+
+.search_list_wrap li {
   font-size: 1.6rem;
   font-weight: bold;
-  padding: 0 15px;
   display: inline;
+  background: #ECFAFA;
+  box-sizing: border-box;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 20px;
+  color: #30A9A6;
+}
+
+.search_list_wrap li span {
+  cursor: pointer;
+  padding: 1%;
+}
+
+.search_list_wrap li button {
+  box-sizing: border-box;
+  color: #30A9A6;
+  border: none;
+  margin-left: 15px;
+
 }

@@ -19,8 +19,6 @@ export const getLocalAddress = () =>{
      return data;
 
   } catch(e) {
-     console.log(e);
-     console.log("잘못된주소");
      localStorage.removeItem("address");
      return null;
   }
@@ -69,16 +67,17 @@ export const setLocalCart = (cart) =>{
   localStorage.setItem("cart", JSON.stringify(cart));
 }
 
+export const getLocalStorage = (key)=>{
+   try {
+      const jsonData = localStorage.getItem(key)
+      return JSON.parse(jsonData);
+   } catch {
+      localStorage.removeItem(key);
+      return null;
+   }
+}
 
-// 비회원 id 만들기
-// export const getGuestId = ()=>{
-//    const gid = localStorage.getItem("gid");
 
-//    if(gid === null) {
-//       const newGid = `${+new Date()}_${Math.random().toString(36).substring(2,10)}`;
-//       localStorage.setItem("gid", newGid);
-//       return newGid;
-//    }
-
-//    return gid;
-// }
+export const setLocalStorage = (key, data)=>{
+   localStorage.setItem(key, JSON.stringify(data));
+}
